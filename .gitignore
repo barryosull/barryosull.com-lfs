@@ -1,0 +1,26 @@
+# Eclipse/PDT
+/.settings/
+/.buildpath
+/.project
+/laradock
+# PhpStorm
+.idea
+
+# Netbeans
+/nbproject/
+
+# VIM
+*.swp
+
+# OSX
+**.DS_Store
+/vendor/
+
+/storage/*
+!/storage/.gitkeep
+
+.env
+
+inprogress-upload.jpg
+
+/public_html
