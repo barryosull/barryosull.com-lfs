@@ -78,7 +78,7 @@ With those three techniques highlighted we then had a short break for food and b
 
 ## Mapping your Why to a How
 
-[Slide on last discussion](https://barryosull.com/images/how-to-introduce.jpg)
+![Slide on last discussion](https://barryosull.com/images/how-to-introduce.jpg)
 
 This is what it all leading up to. We wanted attendees to discuss their problems (their "why") and then figure out how they could introduce it (the "how"). We gave this session about 25 minutes with teams of 4 to 5, at the end each team presented their technique for introducing DDD, be it one they've tried already or one that they thought would work in their context. This is what we ended up with:
 
