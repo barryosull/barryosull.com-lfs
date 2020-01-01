@@ -12,7 +12,7 @@ Template Driven Development is the practice of reducing software development dow
 
 The dream is that it makes software development quicker and cheaper. The reality is messy code that's hard to navigate and doesn't express business intent. The software isn't fit for purpose and is often broken. The models end up being anemic and the system is littered with hacky workarounds. The codebase rots exceptionally fast and and the developer's have no idea how to fix it. Congrats, you played yourself.
 
-### Why it doesn't work:
+## Why it doesn't work:
 Naively Template Driven Development seems like it should work; there are recurring patterns in software development after-all and we are encouraged to use them. When you look at a well designed system it is consistent and easy to navigate. From there it appears trivial to reduce it down to a series of templates that junior developers can follow. Bam, now you don't need as many senior devs, you just need to teach your junior devs those patterns and they'll be able to add new features with ease.
 
 So if this sounds too good to be true, that's because it is. It is an illusion. The system only looks like it could be turned into a series of templates because the senior developers spent so long iterating on the codebase to make it easy to understand and consistent in style. It didn't start out that way, and to strive for that level of consistency at the start of a project is akin to putting the cart before the horse. If the system changes then the patterns must change to accommodate it, and developers that only know the current patterns cannot handle change.
