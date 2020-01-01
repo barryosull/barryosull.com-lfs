@@ -6,7 +6,7 @@ tags: architecture, design, training
 cover_image: /images/template-driven-development.jpg
 ---
 
-As some of you know, I am a software contractor that works with multiple teams in legacy codebases, and I'd like to discuss a recurring problem I've seen in software development that myself and my friends have dubbed it Template Driven Development.
+As some of you know, I am a software contractor that works with multiple teams in legacy codebases, and I'd like to discuss a recurring problem I've seen in software development that myself and my friends have dubbed "Template Driven Development" (the bad TDD).
 
 Template Driven Development is the practice of reducing software development down to a follow the template approach. It ends up like this, developers are given a schema for how their system should be structured, how concepts should be modelled in code, etc..., and they must follow those templates. 
 
