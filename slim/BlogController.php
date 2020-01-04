@@ -18,7 +18,7 @@ class BlogController
         $page = $this->getPage($args);
         $category = $args['category'] ?? null;
 
-        $articles = $contentRepository->fetchCollection($category);
+        $articles = $contentRepository->fetchCollection($category, false);
         $categories = $contentRepository->fetchAllCategories();
 
         $urlPrevPage = $this->getUrlForPrevPage($page);

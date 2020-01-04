@@ -10,7 +10,7 @@ class BlogTest extends TestCase
      * @test
      * @dataProvider getAllArticleUrls
      */
-    public function displays_article(string $articleUri)
+    public function assertArticleIsAccessible(string $articleUri)
     {
         $app = AppFactory::make();
 
@@ -54,6 +54,19 @@ class BlogTest extends TestCase
         $response = $app->visitUrl("/blog/category/architecture");
 
         $this->hasArticles($response);
+    }
+
+    /**
+     * @test
+     */
+    public function unpublished_articles_are_not_in_the_feed_but_they_are_accessible()
+    {
+        $publishedArticleUrls = $this->getAllArticleUrls();
+
+        $unpublishedUrl = "/blog/template-title";
+
+        $this->assertFalse(in_array($unpublishedUrl, $publishedArticleUrls), "Unpublished article url should not be in feed");
+        $this->assertArticleIsAccessible($unpublishedUrl);
     }
 
     public function getAllArticleUrls()

@@ -13,7 +13,7 @@ class BlogFeedController
         $contentRepository = new ContentRepository();
         $renderer = new Renderer();
 
-        $articles = $contentRepository->fetchCollection();
+        $articles = $contentRepository->fetchCollection(null, true);
 
         $pubDate = date(DATE_RSS, strtotime($articles[0]->date));
 

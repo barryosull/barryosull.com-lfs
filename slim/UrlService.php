@@ -40,7 +40,7 @@ class UrlService
      */
     private function getArticleUrls(): array
     {
-        $articles = $this->contentRepository->fetchCollection();
+        $articles = $this->contentRepository->fetchCollection(null, true);
 
         return array_map(function(Article $article){
             return $article->url;
