@@ -61,9 +61,11 @@ class BlogTest extends TestCase
      */
     public function unpublished_articles_are_not_in_the_feed_but_they_are_accessible()
     {
-        $publishedArticleUrls = $this->getAllArticleUrls();
+        $publishedArticleUrls = array_map(function($provider) {
+            return $provider[0];
+        }, $this->getAllArticleUrls());
 
-        $unpublishedUrl = "/blog/template-title";
+        $unpublishedUrl = getenv('DOMAIN') . "/blog/template-title";
 
         $this->assertFalse(in_array($unpublishedUrl, $publishedArticleUrls), "Unpublished article url should not be in feed");
         $this->assertArticleIsAccessible($unpublishedUrl);
