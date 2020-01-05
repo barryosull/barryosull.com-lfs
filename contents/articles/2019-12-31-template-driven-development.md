@@ -14,7 +14,7 @@ Now, you're probably thinking, "Wait a minute, isn't that just consistency?", bu
 
 The dream is that it makes software development quicker and cheaper. The reality is messy code that's hard to navigate and fails to express business intent. The models end up being anemic and the system is littered with hacks to workaround failings in the prescribed patterns. The codebase rots exceptionally fast, the resulting product is broken, and the developers have no idea how to fix it. Congrats, you played yourself.
 
-## Why it doesn't work:
+## Why it doesn't work
 Naively "Template Driven Development" seems like it should work; there are recurring patterns in software development after-all and we are encouraged to use them. 
 
 When you look at a well designed system it is consistent and easy to navigate. From there it appears trivial to reduce it down to a series of templates that junior developers can follow. Bam, now you don't need as many senior devs, you just need to teach your junior devs those patterns and they'll be able to add new features with ease.
@@ -24,6 +24,8 @@ So if this sounds too good to be true, that's because it is. It is an illusion. 
 ## Why we want it to work
 "Template Driven Development" comes from the desire to turn a [complex](https://en.wikipedia.org/wiki/Cynefin_framework#Complex)/[complicated](https://en.wikipedia.org/wiki/Cynefin_framework#Complicated) process (working as a team to write software) into a [simple process](https://en.wikipedia.org/wiki/Cynefin_framework#Simple_/_Obvious_/_Clear) (putting together Ikea furniture). It tries to shortcut all the design, iteration, training and collaboration that leads to a well written system. The idea that this is even possible is re-enforced by the fact that well designed systems seem obvious in hindsight. When we see the final product we forget all the trial and error it took to actually get there. 
 
+![Complex vs Simple](https://barryosull.com/images/software-complex-vs-simple.png)
+
 Development managers and seniors like this idea because it potentially allows them to shortcut finding and training developers (an expensive task). Instead they just need to have some meetings, come up with the templates, and then fire a small army of inexpensive juniors at the problem.
 
 Junior to mid-level developers also want to learn the secrets of writing good code and ideally they'd like to skip all the ambiguity and messing about. They want to write well designed systems and they don't want to go through the pain of getting it wrong. They believe it is possible to leapfrog all the iteration and mistakes and just jump straight to the finish line.
@@ -32,9 +34,9 @@ Combine these two mindsets together and you can see why the idea is so attractiv
 
 Remember, there are [no silver bullets](https://en.wikipedia.org/wiki/No_Silver_Bullet).
 
-## The problems it causes:
+## The problems it causes
 
-When you teach developers to work like this then you encourage them to stop thinking. Infact, you've explicitly told them not to think and instead they should follow the process laid down from on high. They don't know why the patterns are good or what problem they're solving, they just view them as the way you do things and will not put anymore thought into it than that. The resulting systems are messy and are typically nonsensical because no design thought was put into them. The developers don't know how to work outside the patterns you've given them, they can't choose patterns based on context, so they will follow those patterns even when it's obvious that they're getting in the way.
+When you teach developers to work like this then you encourage them to stop thinking. In fact, you've explicitly told them not to think and instead they should follow the process laid down from on high. They don't know why the patterns are good or what problem they're solving, they just view them as the way you do things and will not put anymore thought into it than that. The resulting systems are messy and are typically nonsensical because no design thought was put into them. The developers don't know how to work outside the patterns you've given them, they can't choose patterns based on context, so they will follow those patterns even when it's obvious that they're getting in the way.
 
 Just because you can put together an Ikea flatpack does not mean you can design and manufacture a desk from scratch with no supervision. That's not how carpentry works and it's definitely not how coding works.
 
@@ -45,12 +47,12 @@ Once people buy into this idea it is incredibly hard to make them stop, it becom
 ## So how do we combat this?
 Thankfully it's not all doom and gloom, there are ways to fight this mindset. Below is how we dealt with it at one company I consulted (obvious self plug).
 
-### 1. Kill your darlings:
+### 1. Kill your darlings
 Well first off we need to kill the idea that there is one way to write software, one perfect way to architect an application that doesn't require design and iteration. This idea is toxic and is the ultimate [pre-optimisation](https://stackify.com/premature-optimization-evil/).
 
 Basically we as developers are looking for the "God pattern", the pattern that is perfect and always applicable. This pattern does not exist, and any attempt to find it is a fools errand. That isn't to say there aren't generic patterns, of course there are, but the patterns are only applicable in a particular context. You let the patterns emerge to help you express the problem you're solving, you don't force them to appear.
 
-### 2. Don't present patterns as how-to:
+### 2. Don't present patterns as how-to
 This is a trap that has caught myself and many others. You show off a well designed system and explain all the patterns you used, hoping that it will help other developers. You teach these patterns as "the way a system should be designed", under the belief that it'll shortcut training time. This isn't enough, they need to understand the design choices you made, not just the end result. You have to showcase the trade-offs in design, show how you got there. Which leads us to PRs . . .  
 
 ### 3. Express the evolution of your designs through small PRs
