@@ -29,7 +29,7 @@ date : 2018-01-07
 # Featured
 | Talk | Article | Project | 
 | ---------------- | | ---------------- | ------------------------- |
-| [Using Interfaces Effectively](https://www.youtube.com/watch?v=MQHFNINX1EU) | [Template Driven Development: Why it doesn't work](/blog/dtemplate-driven-development-why-it-doesn-t-work/) | [The Projectionist: System for running projectors and keeping track of their position](https://github.com/barryosull/the-projectionist) |
+| [The Apocalypse Meme in Software](https://www.youtube.com/watch?v=MQHFNINX1EU) | [Template Driven Development: Why it doesn't work](/blog/dtemplate-driven-development-why-it-doesn-t-work/) | [The Projectionist: System for running projectors and keeping track of their position](https://github.com/barryosull/the-projectionist) |
 
 # About me
 I am a software developer and solutions architect from Ireland, I enjoy writing software and designing solutions to problems.
