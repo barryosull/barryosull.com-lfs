@@ -9,10 +9,13 @@ I give talks and workshops on PHP and DDD topics. I enjoy discussing the concept
 
 |Type   | Title | Link  | Date | Location |
 | ---   | ---   | ---   | ---   | ---   |
+| Workshop | Scratching Refactoring: Unearthing your domain | [link](https://slides.com/barryosull/scratch-refactoring-workshop) | 2019 | DDD IE |
+| Workshop | Introducing DDD to your company: Roleplaying | [link](https://slides.com/barryosull/introducing-ddd-to-your-company-roleplaying) | 2019 | DDD IE |
+| Workshop | Introducing DDD to your Company | [link](https://slides.com/barryosull/introducing-ddd-to-your-company) | 2019 | DDD IE |
 | Workshop | Event Storming Workshop: Building Noteworthy | [link](https://slides.com/barryosull/event-storming-workshop-building-noteworthy#/) | 2019 | DDD IE |
 | Workshop | Event Storming Hands on Session | [link](https://slides.com/barryosull/event-storming-workshop) | 2019 | DDD IE |
 | Talk | Mapping Constraints | [link](https://slides.com/barryosull/mapping-constraints) | 2019 | DDD Belfast |
-| Talk | The Apocalypse Meme in Software: DDD EU 2019 | [link](https://slides.com/barryosull/the-apocalypse-meme-in-software-ddd-eu-2019) | 2019 | DDD EU |
+| Talk | The Apocalypse Meme in Software: DDD EU 2019 | [link](https://www.youtube.com/watch?v=MQHFNINX1EU) | 2019 | DDD EU |
 | Workshop | Applying DDD to your Business | [link](https://slides.com/barryosull/domain-driven-design-ireland) | 2018 | DDD IE |
 | Workshop | Making your Career Happen | [link](https://slides.com/barryosull/making-your-career-happen) | 2018 | PHP Dublin |
 | Talk | WTF is DDD | [link](https://slides.com/barryosull/wtf-is-ddd) | 2018 | DDD IE |

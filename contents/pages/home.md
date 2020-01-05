@@ -1,7 +1,7 @@
 ---
 title: ""
 metaTitle: "Barry O'Sullivan Development Services"
-description: "Who am me"
+description: "Details of who I am and what I do"
 slug: "home"
 date : 2018-01-07
 ---
@@ -19,32 +19,26 @@ date : 2018-01-07
         <br>
         I am an experienced PHP developer that specialises in:
         <ul>
-            <li>Domain Modelling</li>
-            <li>Event Sourcing</li>
-            <li>TDD</li>
             <li>Legacy refactoring</li>
+            <li>TDD</li>
+            <li>Domain Modelling</li>
+            <li>Event Sourcing</li>  
         </ul>
-        
-        <span style="font-size:20px; font-weight:bold;"> ⇦ I am actively looking for new projects!</b></span>
-    </div>
+       </div>
     <div style="clear:both"></div>
 </div>
 
 # Featured
 | Talk | Article | Project | 
 | ---------------- | | ---------------- | ------------------------- |
-| [Using Interfaces Effectively](https://www.youtube.com/watch?v=5ZsTXTE52mE&t=16s) | [Domain Driven Design for Everyone Else](/blog/domain-driven-design-for-everyone-else) | [The Projectionist: System for running projectors and keeping track of their position](https://github.com/barryosull/the-projectionist) |
-
-# Last Event
-[PHPDublin Nov 2018 - Making your Career Happen](https://www.meetup.com/PHP-Dublin/events/256204461/)
-I ran a collaborative workshop where all participants were involved in defining and exploring the current hiring landscape and how to navigate through it.
+| [Using Interfaces Effectively](https://www.youtube.com/watch?v=MQHFNINX1EU) | [Template Driven Development: Why it doesn't work](/blog/dtemplate-driven-development-why-it-doesn-t-work/) | [The Projectionist: System for running projectors and keeping track of their position](https://github.com/barryosull/the-projectionist) |
 
 # About me
-I am a software developer and solutions architect from Ireland, I enjoy writing software and designing solutions to real problems.
+I am a software developer and solutions architect from Ireland, I enjoy writing software and designing solutions to problems.
 
-My development/leading/training style is centered around best practices, such as automated tests, continuous integration, code reviews, documentation, clean architecture and consistent, maintainable code. I believe that a culture focussed on training and upskilling leads to a better dev team and a better product.
+My development style is centered around best practices, such as automated tests, continuous integration, code reviews, documentation, clean architecture and consistent, maintainable code. I believe that a culture focussed on training and up-skilling leads to a better dev team and a better product.
 
-In my spare time I contribute to open source, [write articles](/blog), [give talks](/talks) on software dev, and also run [PHPDublin](https://www.meetup.com/PHP-Dublin/).
+In my spare time I contribute to open source, [write articles](/blog), [give talks](/talks) on software dev, and also organise [PHPDublin](https://www.meetup.com/PHP-Dublin/) and [DDDIE](https://www.meetup.com/Domain-Driven-Design-Ireland/).
 
 If you'd like to contact me about opportunities, drop me <a href="mailto:contact@barryosull.com">an email.</a>
 
