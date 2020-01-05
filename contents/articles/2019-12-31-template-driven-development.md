@@ -42,6 +42,8 @@ Just because you can put together an Ikea flatpack does not mean you can design 
 
 Teaching developers to work like this does them a massive disservice and potentially ruins their professional development. Developers that want to get better will quickly realise that this doesn't work and will get frustrated and leave. Developers that are isolated and trust in management will buy into it and will stop progressing, producing bad code without understanding why it's bad. Since it doesn't work, management believes that the devs need tighter reigns, and it devolves into dark agile with a stringent command and control structure . . . which just makes everything worse.
 
+![Using the wrong pattern](https://barryosull.com/images/square-peg-round-hole.jpg)
+
 Once people buy into this idea it is incredibly hard to make them stop, it becomes faith driven, an ideology about how software development "should" work, and it takes a LOT of failure before they will admit it doesn't. 
 
 ## So how do we combat this?
