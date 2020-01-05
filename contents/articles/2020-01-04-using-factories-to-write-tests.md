@@ -17,10 +17,10 @@ Factories can be as simple as static methods or as complex as builders. Here are
 
 ### 1. Static Factory mMethods
 The most basic type of factory, and also one of the most useful.
-```
+```php
 <?php
 
-private static method makeUser(int $id, string $email): User
+private static function makeUser(int $id, string $email): User
 {
 	$username = "test_username_" . $id;
 	$name = new Name('Test', 'User');
@@ -43,19 +43,19 @@ You can also use factory methods to convey info about the state you're creating 
 ### 2. Factory Classes
 The next step above a factory method is a factory class. Here's an example:
 
-```
+```php
 <?php
 
 class CommandFactory 
 {
 	public static function makeCreateUserCommand(): CreateUser\Command
 	{
-		$email = 'user1@email.com';
-		$username = "test_username_" . $id;
+		$email = 'user@email.com';
+		$username = "test_username";
 		$name = new Name('Test', 'User');
 		$phone = new PhoneNumber("+353", "085 1234567");
 
-		return new CreateUser\Command($username, $email, $name, phone);
+		return new CreateUser\Command($username, $email, $name, $phone);
 	}
 }
 
@@ -64,7 +64,7 @@ Pretty simple as well, factory classes create a specific type of object, in the 
 
 Extracting factory methods into a class is useful when you have the same factory code distributed across your tests and you'd like to centralise it. For example, here you can see that the factory class is used as glue between two test cases that rely on the same object in the same state. 
 
-```
+```php
 <?php
 
 // In the Controller test
@@ -78,7 +78,7 @@ This allows us to ensure that the output of one test (the controller test) is us
 
 ### 3. Builders
 Now we're getting more advanced. Builders allow us to configure objects before creating them. Here's what it looks like to use a builder:
-```
+```php
 <?php
 
 $nameDifferentToCreditCard = new Name('Different Test', 'User');
@@ -98,7 +98,7 @@ A personal note, in some cases the builder can be an implementation detail of a 
 
 ## The difference between factories and generators
 Factories are deterministic, give it the same input, get the same output. If you have an object that creates scalars/objects, but they're non-derministic, e.g. something a class that creates UUIDs or DateTimes, then I'd recommend you call them generators. Generation implies variance and newness, this subtle language difference converys the distinction between the two and adds clarity to code.
-```
+```php
 <?php
 
 $id = Id::generateId();
@@ -107,7 +107,7 @@ $id = Id::generateId();
 
 ## Constants
 Constants are another great tool to use when writing maintainable test factories.
-```
+```php
 <?php
 const EMAIL = 'user@email.com';
 const USERNAME = 'test_username';
@@ -118,7 +118,7 @@ Constants allow us to centralise common test scalar values. This is useful when 
 Now that we've waxed lyrical about the different type of tests and how to write them, let's look at how they can be used within tests to add clarity.
 
 Here is a simple unit test for a HTTP controller. It's written in my own particular style, so I'd suggest you focus on the factory methods and how they're used.
-```
+```php
 <?php
 ...
 class UserControllerTest extends TestCase
@@ -155,7 +155,7 @@ class UserControllerTest extends TestCase
 		$name = new Name(self::FIRST_NAME, self::LAST_NAME);
 		$phone = new PhoneNumber(self::PHONE_COUNTRY_CODE, self::PHONE_NUMBER);
 
-		return new CreateUser\Command($self::USERNAME, self::EMAIL, $name, phone);
+		return new CreateUser\Command(self::USERNAME, self::EMAIL, $name, $phone);
 	}
 
 	private static function makeCommandHandlerThatAcceptsCommand(CreateUser\Command $command)
