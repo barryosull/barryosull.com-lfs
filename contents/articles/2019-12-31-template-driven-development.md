@@ -64,6 +64,6 @@ Knowledge comes from experience. If you want you developers to understand when a
 One way to do this is to carve out some time for a developer to try out a new idea of a codebase. Maybe a day every two weeks or so. Afterwards review the code with them and discuss what worked and what didn't. If it's good keep it, if it's not then drop the PR, no harm done. The goal is to learn and explore, not to push all code to production. 
 
 ## Don't fall victim
-Template Driven Development is a real problem in our industry, it's a seductive idea that leads to crap software and frustrated teams. Thankfully it is possible to combat it, we just need to be realistic and humble, accept that there are no shortcuts in training. We need to create an environment were knowledge is shared and skills can be improved. The simplest way to start is to have seniors show junior and mid-level developers how they do things, they just need to take the time. (Small PRs FTW!)
+Template Driven Development is a real problem in our industry, it's a seductive idea that leads to crap software and frustrated teams. Thankfully it is possible to combat it, we just need to be realistic and humble, accept that there are no shortcuts in training. We need to create an environment were knowledge is shared and skills can be improved. The simplest way to start is to have seniors show junior and mid-level developers how they do things, they just need to take the time. (Small PRs are a god send here!)
 
-Software development is about iteration at it's core, there's no way to shortcut it, and we must accept that.
+Software development is about iteration and collaboration at it's core, there's no way to shortcut it, and we must accept that.
