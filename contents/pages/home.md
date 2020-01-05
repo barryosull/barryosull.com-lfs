@@ -38,7 +38,7 @@ My development style is centered around best practices, such as automated tests,
 
 In my spare time I contribute to open source, [write articles](/blog), [give talks](/talks) on software dev, and also organise [PHPDublin](https://www.meetup.com/PHP-Dublin/) and [DDDIE](https://www.meetup.com/Domain-Driven-Design-Ireland/).
 
-If you'd like to contact me about opportunities, drop me <a href="mailto:contact@barryosull.com">an email.</a>
+If you'd like to contact me about opportunities, drop me <a href="mailto:barry@tercet.io">an email.</a>
 
 <div id="mc_embed_signup">
     <form action="https://barryosull.us17.list-manage.com/subscribe/post?u=9b492ce0918014d517e6f5985&amp;id=6f3befd048" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
