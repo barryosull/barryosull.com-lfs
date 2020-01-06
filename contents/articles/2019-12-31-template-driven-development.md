@@ -65,6 +65,7 @@ Small PRs show how you changed a system over time, introducing patterns and desi
 Quick aside, when writing these PRs you should be explicit about design choices in the description, this makes things clearer and opens up the design to discussion, which helps spread knowledge and understanding.
 
 ### 4. Allow time to sharpen the axe
+![Sharpen the coding axe](https://barryosull.com/images/coding-axe.jpg)
 Knowledge comes from experience. If you want you developers to understand when and where patterns are applicable, you have to let them try out those patterns and review the results. Simply teaching them the patterns isn't enough, information is not knowledge, they have to experience using the patterns firsthand. I.e. they need to sharpen the axe.
 
 One way to do this is to carve out time for a developer to try out a new idea on a codebase. Maybe a day every two weeks or so. Afterwards review the code with the team and discuss what worked and what didn't. If it's good, keep it, if it's not then drop the PR, no harm done. The goal is to learn and explore, not to push all code to production. This time isn't wasted time, this time is an investment in your staff and the work they'll produce in future. It's pays off massively and surprisingly quickly. You're saving yourselves a lot of future bugs and headaches.
