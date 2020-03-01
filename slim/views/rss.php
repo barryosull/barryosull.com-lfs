@@ -7,7 +7,7 @@
         <pubDate><?php echo $pubDate ?></pubDate>
 <?php foreach ($articles as $article): ?>
         <item>
-            <title>Why I don't like traits</title>
+            <title><?php echo $article->title ?></title>
             <link><?php echo $root . $article->url ?></link>
             <guid><?php echo $root . $article->url ?></guid>
             <pubDate><?php echo date(DATE_RSS, strtotime($article->date)) ?></pubDate>
