@@ -9,6 +9,8 @@ I give talks and workshops on PHP and DDD topics. I enjoy discussing the concept
 
 |Type   | Title | Link  | Date | Location |
 | ---   | ---   | ---   | ---   | ---   |
+| Talk | Tactical Patterns for Testable Applications | [link](https://slides.com/barryosull/tactical-patterns-for-testable-applications) | 2020 | PHPDublin |
+| Workshop | Scratching Refactoring: Unearthing your domain | [link](https://slides.com/barryosull/scratch-refactoring-workshop) | 2020 | DDD EU |
 | Workshop | Scratching Refactoring: Unearthing your domain | [link](https://slides.com/barryosull/scratch-refactoring-workshop) | 2019 | DDD IE |
 | Workshop | Introducing DDD to your company: Roleplaying | [link](https://slides.com/barryosull/introducing-ddd-to-your-company-roleplaying) | 2019 | DDD IE |
 | Workshop | Introducing DDD to your Company | [link](https://slides.com/barryosull/introducing-ddd-to-your-company) | 2019 | DDD IE |

@@ -17,10 +17,10 @@ date : 2018-01-07
         <br>
         I am an experienced PHP developer that specialises in:
         <ul>
-            <li>Legacy refactoring</li>
-            <li>TDD</li>
+            <li>Legacy Refactoring</li>
+            <li>Testing Web Apps</li>
             <li>Domain Modelling</li>
-            <li>Event Sourcing</li>  
+            <li>Distributed Architectures</li>
         </ul>
        </div>
     <div style="clear:both"></div>
@@ -29,7 +29,7 @@ date : 2018-01-07
 # Featured
 | Talk | Article | Project | 
 | ---------------- | | ---------------- | ------------------------- |
-| [The Apocalypse Meme in Software](https://www.youtube.com/watch?v=MQHFNINX1EU) | [Template Driven Development: Why it doesn't work](/blog/dtemplate-driven-development-why-it-doesn-t-work/) | [The Projectionist: System for running projectors and keeping track of their position](https://github.com/barryosull/the-projectionist) |
+| [The Apocalypse Meme in Software](https://www.youtube.com/watch?v=MQHFNINX1EU) | [Estimating software: How to deal with requests for estimates](/blog/dealing-with-requests-for-feature-estimates/) | [The Projectionist: System for running projectors and keeping track of their position](https://github.com/barryosull/the-projectionist) |
 
 # About me
 I am a software developer and solutions architect from Ireland, I enjoy writing software and designing solutions to problems.
