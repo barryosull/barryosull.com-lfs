@@ -1,6 +1,6 @@
 ---
 title: "Using Factories to Write Tests: A Love Letter to Factories"
-published: false
+published: true
 description: "Factories are one of the most powerful patterns when writing tests, and here's why."
 tags: tests, factories, design
 cover_image: http://globalnerdy.com/wordpress/wp-content/uploads/2008/07/technical_difficulties_please_stand_by.jpg
@@ -8,14 +8,14 @@ cover_image: http://globalnerdy.com/wordpress/wp-content/uploads/2008/07/technic
 
 Hello there and welcome to an article I've wanted to write about factories for a very long time. This article is really a love letter to the humble factory. As a pattern it could not be simpler, yet it is the most powerful and paradoxically the most underused pattern when writing tests. An ambitious statement, let's dig in and see where we get.
 
-## What is a factory
+## What is a Factory
 Ok, so this seems really basic and I imagine there are a lot of rolling eyeballs right now, but let's go through the definition I'm using, just so we're all on the same page.
 
 A factory is something that creates an object in a certain state. Factories return scalar values or classes (ValueObjects, Commands, Entities, Services, etc . . ., doesn't matter). The states of the objects can be generic default states or specialised named states, it depends on the context.
 
 Factories can be as simple as static methods or as complex as builders. Here are three basic examples.
 
-### 1. Static Factory mMethods
+### 1. Static Factory Methods
 The most basic type of factory, and also one of the most useful.
 ```php
 <?php
@@ -31,14 +31,26 @@ private static function makeUser(int $id, string $email): User
 ...
 
 //Using the factory in a testcase
-$userA = self::makeUser(1, 'user1@email.com');
-$userB = self::makeUser(2, 'user2@email.com');
+public function test_users_must_have_unique_email_addresses()
+{
+	$userA = self::makeUser(1, 'user1@email.com');
+	$userB = self::makeUser(2, 'user1@email.com');
+
+	$repo = $this->makeRepo();
+	
+	$repo->store($userA);
+	
+	$this->expectException(DomainException::class);
+	
+	$repo->store($userB);
+}
+
 ```
 As you can see this could not be simpler. We create a `User` object, giving smart defaults while allowing the `$id` and `$email` values to be set. This allows us to create and test users in various states, without focussing on the values we don't actually care about, removing noise from the test.
 
 This is how I always start with my factories. I extract a private static factory that creates an object, then if I need the same object in a slightly different state I'll create a second static factory for that state. Once I need a third one I'll generalise the solution into a single factory method that allows configurable values like the above (if it makes sense to do this). Basically, don't go too DRY too fast, wait for duplication before you remove it.
 
-You can also use factory methods to convey info about the state you're creating the object in. E.g. `$userA = self::makeInactiveUser();`. This makes the code easier to read and it forces you to give names to states that you care about. As an aside, this might be a hint that these states should be represented in your domain in some way.
+You can also use factory methods to convey key info about the state you're creating the object in. E.g. `$userA = self::makeInactiveUser();`. This makes the code easier to read and it forces you to give names to states that you care about. As an aside, this might be a hint that these states should be represented in your domain in some way. (I'm a big proponent of letting domain emerge and express themselves organically)
 
 ### 2. Factory Classes
 The next step above a factory method is a factory class. Here's an example:
@@ -67,11 +79,13 @@ Extracting factory methods into a class is useful when you have the same factory
 ```php
 <?php
 
-// In the Controller test
+// Outer layer, used in a test that ensures a controller creates the expected command from a request
 $expectedCommand = CommandFactory::makeCreateUserCommand();
 
-// In the Command handler test
+// Inner layer, the same command that we know is created by controllers is now proven to work as expected when given to the command handler
 $command = CommandFactory::makeCreateUserCommand();
+
+// We now have abn explicit contract between the two
 ```
 
 This allows us to ensure that the output of one test (the controller test) is used as actual input in another test (the command handler test). You could view this as a rudimentary form of contract test as it ensures the two components can actually integrate.
@@ -94,7 +108,7 @@ In the above you'll notice that there's a static factory method `makeIrishAddres
 
 A tip on writing builders, they should exist out of necessity, not because you like the idea of them. You don't start with a builder that allows any posible configuration, you switch to a builder once your factory methods become too complex (+3 arguments) and you're finding them hard to use or read. 
 
-A personal note, in some cases the builder can be an implementation detail of a factory class. I once got fed up copy pasting and editing the same constructor internally in a factory class, so instead I wrote a builder and used that inside the factory. This made the factory code much simpler internally while making new factory methods easier to write. It also allowed me to change the objects constructor with ease (adding new properties was a pain before this, so much duplication). As you can imagine this is pretty powerful.
+A personal note, in some cases the builder can be an implementation detail of a factory class. By that I mean that there's a factory class, but it uses a builder to do the heavy lifting. I once got fed up copy pasting and editing the same constructor internally in a factory class, so instead I wrote a builder and used that inside the factory. This made the factory code much simpler internally while making new factory methods easier to write. It also allowed me to change the objects constructor with ease (adding new properties was a pain before this, so much duplication). As you can imagine this is pretty powerful.
 
 ## The difference between factories and generators
 Factories are deterministic, give it the same input, get the same output. If you have an object that creates scalars/objects, but they're non-derministic, e.g. something a class that creates UUIDs or DateTimes, then I'd recommend you call them generators. Generation implies variance and newness, this subtle language difference converys the distinction between the two and adds clarity to code.
