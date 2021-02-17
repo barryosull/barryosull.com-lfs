@@ -73,7 +73,7 @@
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
             <p class="uppercase tracking-loose w-full">Legacy Web App Specialist</p>
             <h1 class="my-4 text-5xl font-bold leading-tight">
-                I improve legacy codebases so your business can succeed
+                Improve your Legacy Codebase so your Business can Succeed
             </h1>
             <p class="leading-normal text-2xl mb-8">
                 Have a codebase that everyone is afraid to touch? Call me.
@@ -123,13 +123,13 @@
                 </p>
             </div>
             <div class="w-full sm:w-1/2 p-6">
-
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_abstract_x68e.svg" alt="what I do">
             </div>
         </div>
 
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/2 p-6">
-
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Process_re_gws7.svg" alt="the legacy process">
             </div>
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
@@ -165,13 +165,13 @@
                 </div>
             </div>
             <div class="w-full sm:w-1/2 p-6 mt-6">
-
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_project_team_lc5a.svg" alt="how I work">
             </div>
         </div>
 
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/2 p-6">
-
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Code_thinking_re_gka2.svg" alt="technologies">
             </div>
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
