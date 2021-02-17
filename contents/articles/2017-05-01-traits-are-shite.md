@@ -8,7 +8,7 @@ cover_image: https://thepracticaldev.s3.amazonaws.com/i/mdufkfeb46p3xtxmtpjv.jpg
 
 Traits in PHP are a bit shite. At best they are an ineffective way to append functionality to a class, at worst they are an anti-pattern. They are often used as toggles for internal functionality (see Laravel's Acceptance tests) or as a lazy way to share common functions across a bunch of classes without using another pattern.
 
-# Why are they shite?
+# Why are they bad?
 
 ## Reading:
 They're hard to read. If you see that a class uses a trait, you have to open the trait to see what it's adding to the class. 
@@ -49,5 +49,5 @@ The result was pretty SOLID (pun intended), we had code that was easier to read,
 
 So, in conclusion, traits break the principles of OOP, they couple internals across objects and just make it harder to understand what the hell is going on and to change your code. 
 
-**TL;DR** : Traits are shite, use other patterns instead.
+**TL;DR** : Traits are bad, use other patterns instead.
 

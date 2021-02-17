@@ -10,12 +10,9 @@ class HomeController
 {
     public function handle(RequestInterface $request, ResponseInterface $response, array $args): ResponseInterface
     {
-        $contentRepository = new ContentRepository();
         $renderer = new Renderer();
 
-        $page = $contentRepository->fetchPage('home');
-
-        $body = $renderer->render("page", ['page'=>$page, "uri" => strval($request->getUri())]);
+        $body = $renderer->render("home", ["uri" => strval($request->getUri())]);
 
         $response->getBody()->write($body);
 

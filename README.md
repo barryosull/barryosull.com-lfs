@@ -53,11 +53,16 @@ The list of things I'd like to do in this blog to make it more usable
 - Made annotations persistent
 - Added basic login for annotations feature
 - Added tests for get routes (just to make sure they work)
+- Better deploy scripts, what I have currently is crap
+- Subscribe to mailing list
+  - Not bothering, I don't have a mailing list
+  - A feature I thought I needed, but don't
+
+### Doing
+- Update template
 
 ### Next:
-- Better deploy scripts, what I have currently is crap
 - Upload image via web UI
-- Subscribe to mailing list
 - Publish automatically to dev.to
 - Restructure domain code so it's layered in more sensible way
 - Remove use of abstract class/inheritance anti-pattern
