@@ -236,7 +236,7 @@
                         Ireland's digital marketplace, with over 1 million users millions of products placed and sold.
                     </p>
                     <p class="text-gray-800 text-base pt-6 px-6 mb-5">
-                        Designed, co-ordinated and implemented a cross platform upsell process, resulting in >50% increase in revenue. Single handedly managed their SCA migration, restructuring their entire payment process with zero downtime.
+                        Designed, co-ordinated and implemented a cross platform upsell process, resulting in a 25% increase in revenue. Single handedly managed their SCA migration, restructuring their entire payment process with zero downtime.
                     </p>
                 </a>
             </div>
