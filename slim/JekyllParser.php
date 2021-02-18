@@ -67,15 +67,7 @@ class JekyllParser
         }
         $excerpt = substr($content, 0, $moreMarkerPosition). "... <br>";
 
-        $readMoreLink = $this->readMoreLink("/blog/" . $slug);
-        $excerpt .= $readMoreLink;
-
         return $excerpt;
-    }
-
-    private function readMoreLink(string $url): string
-    {
-        return '<a href="' . $url . '" style="float:right" class="btn">Read on &raquo;</a>';
     }
 
     /**
