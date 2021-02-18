@@ -24,7 +24,7 @@ class BlogController
         $urlPrevPage = $this->getUrlForPrevPage($page);
         $urlNextPage = $this->getUrlForNextPage($articles, $page, self::PER_PAGE);
 
-        $body = $renderer->render("blog-v2", [
+        $body = $renderer->render("blog", [
             'articles' => array_slice($articles, $page * self::PER_PAGE, self::PER_PAGE),
             'categories' => $categories,
             'title' => "Blog",
