@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+
     <style>
         .gradient {
-            background: linear-gradient(90deg, #d56c33 0%, #ffd658 100%);
+            background: linear-gradient(105deg, #d56c33 0%, #ffd658 100%);
         }
     </style>
 </head>
@@ -137,19 +137,19 @@
                     The Legacy process:
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    Working with legacy is a difficult process and requires many different avenues of approach. Below is a selection of the process and skills I use to learn and improve your product's codebase.
-                <ul class="text-gray-600 list-disc pl-4">
+                    Working with legacy is a difficult process and requires a range of approaches to succeed. Below is a selection of the process and skills I use to learn and improve your product's codebase.
+                </p>
+                <ul class="text-gray-600 mb-8 list-disc pl-4">
                     <li><b>Domain Cartography</b>: Understand the domain by exploring the code</li>
                     <li><b>TDD</b>: If you can't test it then you can't change it</li>
-                    <li><b>Continuous</b> Refactoring: Gain understanding by iterating and improving</li>
+                    <li><b>Continuous Refactoring</b>: Gain understanding by iterating and improving</li>
                     <li><b>Collaborative Modelling</b>: Share knowledge and mental models visually</li>
-                    <li><b>Agile</b>: Focus on value and working software over a detailed plan</li>
+                    <li><b>Agile</b>: Focus on value and working software over a detailed yet infeasible plan</li>
                     <li><b>Tooling</b>: Lean on tools to highlight and fix pain points</li>
                     <li><b>CI/CD</b>: Automatic testing and deployments so you can go faster</li>
                     <li><b>Empathy</b>: Work with the team to succeed, understand their goals and pain</li>
                     <li><b>Org Anthropology</b>: Understand the org culture and how they build/view software</li>
                 </ul>
-                </p>
             </div>
         </div>
 
@@ -161,7 +161,7 @@
                     </h3>
                     <p class="text-gray-600 mb-8">
                         I engage in long-term contracts with clients so that I can bring the most value. The more I understand the codebase and the team, the faster I can iterate and improve things. My goal is to understand your pain and then work to relieve it.<br><br>
-                        I work as either an individual contributor or as part of a team, depending on the needs of the client. As an individual I focus in delivering value, as part of a team I focus on raising the team so they can improve the system themselves.
+                        I work as either an individual contributor or as part of a team, depending on the needs of the client. As an individual I focus on delivering valuable features, as part of a team I focus on raising skills and standards so they can improve the system themselves.
                     </p>
                 </div>
             </div>
@@ -179,7 +179,7 @@
                     Technologies:
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    I primarily work in legacy PHP codebases, but I'm also skilled in improving Javascript systems and can get comfortable in most programming languages fairly quickly. Messy code takes common shapes based on the paradigms of the language, once you understand those you're set to succeed.
+                    I primarily work in legacy PHP codebases, but I'm also skilled in improving Javascript systems and can get comfortable in most programming languages fairly quickly. Messy code takes common shapes, usually based on the paradigms of the language, once you understand those you can improve things.
                 </p>
             </div>
         </div>
@@ -244,7 +244,6 @@
     </div>
 </section>
 
-<!-- Change the colour #f8fafc to match the previous section colour -->
 <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
@@ -288,7 +287,7 @@
     <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
             <div class="flex-3 mb-6 text-black">
-                <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+                <a class="no-underline hover:no-underline font-bold text-xl lg:text-2xl" href="/">
                     <img alt="logo" class="h-8 fill-current inline" src="https://static.thenounproject.com/png/3331774-200.png"/>
                     Barry O'Sullivan
                 </a>
