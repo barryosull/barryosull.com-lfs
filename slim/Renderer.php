@@ -13,10 +13,21 @@ class Renderer
 
         require __DIR__ . "/views/" . $view . ".php";
 
-        $view = ob_get_contents();
+        $content = ob_get_contents();
 
         ob_end_clean();
 
-        return $view;
+        // Wrap content in defined template
+        if (isset($template)) {
+            ob_start();
+
+            require $template;
+
+            $content = ob_get_contents();
+
+            ob_end_clean();
+        }
+
+        return $content;
     }
 }

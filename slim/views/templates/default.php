@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>
-        <?php if (isset($page)): ?>
-            <?php echo $page->title; ?>
-        <?php else: ?>
-            Barry O'Sullivan: Legacy Web App Specialist
-        <?php endif; ?>
-    </title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="Barry O'Sullivan" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>
+   <?php echo isset($title) ? $title : ' Legacy Web App Specialist' ?>
+</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="Barry O'Sullivan" />
+<link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+<!--Replace with your tailwind.css once created-->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
 
-    <?php if (isset($article)) :?>
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@barryosull" />
-        <meta name="twitter:title" content="<?php echo $article->title ?>" />
-        <meta name="twitter:image" content="<?php echo $article->coverImage ?>" />
+<style>
+    .gradient {
+        background: linear-gradient(105deg, #d56c33 0%, #ffd658 100%);
+    }
 
-        <meta property="og:title" content="<?php echo $article->title ?>"/>
-        <meta property="og:image" content="<?php echo $article->coverImage ?>" />
-    <?php endif; ?>
+    #header.gradient .logo {
+        filter:invert();
+    }
 
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
-    <!--Replace with your tailwind.css once created-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    table {
+        margin: 10px 0;
+    }
 
-    <style>
-        .gradient {
-            background: linear-gradient(105deg, #d56c33 0%, #ffd658 100%);
-        }
+    table th, table td {
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        padding: 2px 4px;
+    }
 
-        table {
-            margin: 10px 0;
-        }
-
-        table th, table td {
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-            padding: 2px 4px;
-        }
-
-    </style>
+</style>
 </head>
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 <!--Nav-->
@@ -52,7 +41,7 @@
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
             <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
-                <img alt="logo" class="h-8 fill-current inline" src="https://static.thenounproject.com/png/3331774-200.png"/>
+                <img alt="logo" class="logo h-8 fill-current inline" src="https://static.thenounproject.com/png/3331774-200.png"/>
                 Barry O'Sullivan
             </a>
         </div>
@@ -93,20 +82,7 @@
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
 </nav>
-
-<section class="bg-white border-b pt-16 pb-8">
-    <div class="container max-w-5xl mx-auto m-8">
-        <article class="text-black m-6">
-            <?php if(!empty($page->title)): ?>
-                <h1 class="font-bold text-2xl lg:text-4xl mb-6"><?php echo $page->title; ?></h1>
-            <?php endif; ?>
-            <div>
-                <?php echo (new Parsedown)->parse($page->content); ?>
-            </div>
-        </article>
-    </div>
-</section>
-
+<?php echo $content ?>
 <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
@@ -148,8 +124,8 @@
 <!--Footer-->
 <footer class="bg-white">
     <div class="container mx-auto px-8">
-        <div class="w-full flex flex-col md:flex-row py-6">
-            <div class="flex-3 mb-6 text-black">
+        <div class="w-full flex flex-col md:flex-row py-3">
+            <div class="flex-3 text-black">
                 <a class="no-underline hover:no-underline font-bold text-xl lg:text-2xl" href="/">
                     <img alt="logo" class="h-8 fill-current inline" src="https://static.thenounproject.com/png/3331774-200.png"/>
                     Barry O'Sullivan
@@ -167,14 +143,18 @@
     var brandname = document.getElementById("brandname");
     var toToggle = document.querySelectorAll(".toggleColour");
 
-    document.addEventListener("scroll", function () {
+    document.addEventListener("scroll", updateHeader);
+    updateHeader();
+
+    function updateHeader()
+    {
         scrollpos = window.scrollY;
         if (scrollpos > 10) {
             enableWhiteHeader();
         } else {
             enableColouredHeader();
         }
-    });
+    }
 
     function enableWhiteHeader()
     {
