@@ -95,7 +95,9 @@
                         How I work:
                     </h3>
                     <p class="text-gray-600 mb-8">
-                        I engage in long-term contracts with clients so that I can bring the most value. The more I understand the codebase and the team, the faster I can iterate and improve things. My goal is to understand your pain and then work to relieve it.<br><br>
+                        I engage in long-term contracts with clients so that I can bring the most value. The more I master your codebase and know the team, the faster I can iterate and improve things. My goal is to understand your pain and then work to relieve it.
+                    </p>
+                    <p class="text-gray-600 mb-8">
                         I work as either an individual contributor or as part of a team, depending on the needs of the client. As an individual I focus on delivering valuable features, as part of a team I focus on raising skills and standards so they can improve the system themselves.
                     </p>
                 </div>
@@ -114,7 +116,7 @@
                     Technologies:
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    I primarily work in legacy PHP codebases, but I'm also skilled in improving Javascript systems and can get comfortable in most programming languages fairly quickly. Messy code takes common shapes, usually based on the paradigms of the language, once you understand those you can improve things.
+                    I primarily work in legacy PHP codebases, but I'm also skilled in improving Javascript systems and can get comfortable in most programming languages. Messy code takes common shapes, usually based on the paradigms of the language, once you understand those you can spot the patterns and create solutions.
                 </p>
             </div>
         </div>
@@ -155,7 +157,7 @@
                         Daft.ie is Ireland's No.1 Property website and app.
                     </p>
                     <p class="text-gray-800 text-base pt-6  px-6 mb-5">
-                        Made significant improvements to their custom IAM system, improving security and customer experience. Worked closely with the team, offering training in legacy system management and development processes.
+                        Made significant improvements to their custom IAM system, improving security and customer experience. Worked closely with the team, giving training in legacy system management and development processes.
                     </p>
                 </a>
             </div>
