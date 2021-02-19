@@ -54,6 +54,9 @@
                 <p class="text-gray-600 mb-8">
                     I work in and improve legacy web apps, be that as an individual or as part of a team. Legacy is what we leave behind, and any software that's brings value is going to have its pain points. I work with these systems to change and update behaviour, adding clarity and removing noise.
                 </p>
+                <p class="text-gray-600 mb-8">
+                    I work remotely so I am able to work with you no matter where you are in the world. I practice active listening, active communication and living documentation, ensuring clear communication and quality results. Distance will not be a problem.
+                </p>
             </div>
             <div class="w-full sm:w-1/2 p-6">
                 <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_abstract_x68e.svg" alt="what I do">
@@ -69,13 +72,13 @@
                     The Legacy process:
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    Working with legacy is a difficult process and requires a range of approaches to succeed. Below is a selection of the process and skills I use to learn and improve your product's codebase.
+                    Working with legacy is a difficult process and requires a range of approaches to succeed. Below is a selection of the processes and skills I use to learn and improve your product's codebase.
                 </p>
                 <ul class="text-gray-600 mb-8 list-disc pl-4">
-                    <li><b>Domain Cartography</b>: Understand the domain by exploring the code</li>
-                    <li><b>TDD</b>: If you can't test it then you can't change it</li>
-                    <li><b>Continuous Refactoring</b>: Gain understanding by iterating and improving</li>
-                    <li><b>Collaborative Modelling</b>: Share knowledge and mental models visually</li>
+                    <li><b>Domain Cartography</b>: Map the domain using the code as a guide</li>
+                    <li><b>TDD</b>: Test to understand and add stability; bug free releases are good releases</li>
+                    <li><b>Continuous Refactoring</b>: Gain understanding by iterating and improving; go faster</li>
+                    <li><b>Collaborative Modelling</b>: Share knowledge and mental models visually, in person or remote</li>
                     <li><b>Agile</b>: Focus on value and working software over a detailed yet infeasible plan</li>
                     <li><b>Tooling</b>: Lean on tools to highlight and fix pain points</li>
                     <li><b>CI/CD</b>: Automatic testing and deployments so you can go faster</li>
