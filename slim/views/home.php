@@ -81,7 +81,7 @@
                     <li><b>Collaborative Modelling</b>: Share knowledge and mental models visually; learn to design/communicate together</li>
                     <li><b>Agile</b>: Focus on value and working software over rigid process and accurate estimates; enable the team to succeed</li>
                     <li><b>Tooling</b>: Lean on tools to highlight and fix pain points; embrace the OSS ecosystem</li>
-                    <li><b>CI/CD</b>: Automatic testing and deployments so you can go faster</li>
+                    <li><b>CI/CD</b>: Automatic testing and deployments; release often, fix bugs quickly, gain momentum</li>
                     <li><b>Empathy</b>: Work with the team to succeed; understand their goals and pain the mitigate it</li>
                     <li><b>Org Anthropology</b>: Understand the org culture and history; gain deeper understanding of the product</li>
                 </ul>
