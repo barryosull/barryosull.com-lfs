@@ -78,12 +78,12 @@
                     <li><b>Domain Cartography</b>: Map the domain using the code as a guide</li>
                     <li><b>TDD</b>: Test to understand and add stability; bug free releases are good releases</li>
                     <li><b>Continuous Refactoring</b>: Gain understanding by iterating and improving; go faster</li>
-                    <li><b>Collaborative Modelling</b>: Share knowledge and mental models visually, in person or remote</li>
-                    <li><b>Agile</b>: Focus on value and working software over a detailed yet infeasible plan</li>
-                    <li><b>Tooling</b>: Lean on tools to highlight and fix pain points</li>
+                    <li><b>Collaborative Modelling</b>: Share knowledge and mental models visually; learn to design/communicate together</li>
+                    <li><b>Agile</b>: Focus on value and working software over rigid process and accurate estimates; enable the team to succeed</li>
+                    <li><b>Tooling</b>: Lean on tools to highlight and fix pain points; embrace the OSS ecosystem</li>
                     <li><b>CI/CD</b>: Automatic testing and deployments so you can go faster</li>
-                    <li><b>Empathy</b>: Work with the team to succeed, understand their goals and pain</li>
-                    <li><b>Org Anthropology</b>: Understand the org culture and how they build/view software</li>
+                    <li><b>Empathy</b>: Work with the team to succeed; understand their goals and pain the mitigate it</li>
+                    <li><b>Org Anthropology</b>: Understand the org culture and history; gain deeper understanding of the product</li>
                 </ul>
             </div>
         </div>
