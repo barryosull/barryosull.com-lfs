@@ -19,7 +19,7 @@
 
 <style>
     .gradient {
-        background: linear-gradient(105deg, #d56c33 0%, #ffd658 100%);
+        background: linear-gradient(90deg, #d56c33 0%, #ffd658 100%);
     }
 
     #header.gradient .logo {

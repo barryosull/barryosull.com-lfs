@@ -14,10 +14,9 @@
                 </header>
                 <div class="entry-content prose" style="max-width: max-content">
                     <?php echo (new ParsedownExtra)->parse($article->content); ?>
-
-                    <a href="https://twitter.com/intent/tweet?text=<?php echo $article->title?>&url=http%3A%2F%2Fbarryosull.com%2Fblog%2F<?php echo $article->slug?>&via=barryosull" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
-
                 </div>
+                <a class="float-right text-white bg-blue-500 border rounded p-3 pt-1 pb-1 hover:bg-blue-400" href="https://twitter.com/intent/tweet?text=<?php echo $article->title?>&url=http%3A%2F%2Fbarryosull.com%2Fblog%2F<?php echo $article->slug?>&via=barryosull" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+                <div class="clear"></div>
             </article>
         </div>
     </div>
