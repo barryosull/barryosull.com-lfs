@@ -2,7 +2,7 @@
 title: Notes from Working Effectively with Legacy Code
 published: true
 description: A collection of notes from reading and applying Michael Feather's book, "Working with legacy code"
-tags: architecture, refactoring, book, tdd
+tags: architecture, refactoring, book, tdd, legacy
 cover_image: https://images.pexels.com/photos/8769/pen-writing-notes-studying.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 ---
 Do you work with Legacy code? You probably do and don't realise it. IMO, if the code is over 5 years old, messy and it makes money, then it's probably legacy. Legacy code is tricky, and most of us try to avoid it, moving onto sexy new ideas and projects as time moves on. This means that we never learn to deal with legacy, and all the while, the codebase is chugging along, getting worse and increasingly expensive to change. If we don't learn to deal with legacy code, then we'll never learn how to maintain systems over time. We need to address this.

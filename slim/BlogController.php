@@ -26,6 +26,11 @@ class BlogController
 
         $mainCategories = [
             [
+                'title' => 'Legacy',
+                'slug' => 'legacy',
+                'color' => 'bg-purple-500 hover:bg-purple-400',
+            ],
+            [
                 'title' => 'Architecture',
                 'slug' => 'architecture',
                 'color' => 'bg-red-500 hover:bg-red-400',
@@ -44,11 +49,6 @@ class BlogController
                 'title' => 'Implementation',
                 'slug' => 'implementation',
                 'color' => 'bg-yellow-500 hover:bg-yellow-400',
-            ],
-            [
-                'title' => 'Experiments',
-                'slug' => 'experiments',
-                'color' => 'bg-purple-500 hover:bg-purple-400',
             ]
         ];
 

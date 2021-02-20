@@ -3,7 +3,7 @@
 title: "Introducing DDD to your Company"
 published: true
 description: DDD is about enabling developers and business owners to work together on a collaborative model, but how do you introduce the concept?
-tags: ddd, architecture, software-design
+tags: ddd, development-strategy
 cover_image: /images/ddd-introducing-banner.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: Communication styles - Working effectively as a team
 published: true
 description: Communicating is easy, communicating effectively is surprisingly hard. This article explore the two keys ways we communicate and how we can use them in tandem to reach the best result.
-tags: productivity, communication, leadership, brainstorming 
+tags: productivity, communication, leadership, brainstorming, development-strategy
 cover_image: /images/communication-styles.jpg
 ---
 

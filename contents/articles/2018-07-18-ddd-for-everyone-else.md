@@ -2,7 +2,7 @@
 title: Domain Driven Design for Everyone Else
 published: true
 description: Domain Driven Design (DDD) explained in a non-technical way
-tags: DDD, productivity
+tags: DDD, productivity, software-development
 cover_image: /images/ddd-for-everyone-else-header.jpg
 ---
 I've been talking a lot about Domain Driven Design (DDD) lately, be it at meetups or with clients, so I thought I'd write down my thoughts and see if it helps.

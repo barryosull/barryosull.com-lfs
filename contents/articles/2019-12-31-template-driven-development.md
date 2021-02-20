@@ -2,7 +2,7 @@
 title: "Template Driven Development: Why it doesn't work"
 published: true
 description: "Template Driven Development, what it is, why its an anti-pattern and how to avoid it."
-tags: architecture, design, training
+tags: design, training, development-strategy
 cover_image: /images/template-driven-development.jpg
 ---
 

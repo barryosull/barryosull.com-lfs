@@ -2,7 +2,7 @@
 title: "Estimating software: How to deal with requests for estimates"
 published: true
 description: "Tips and techniques on dealing with estimates"
-tags: estimates, productivity, communication 
+tags: estimates, productivity, communication, development-strategy
 cover_image: /images/dealing-with-estimates.jpg
 ---
 

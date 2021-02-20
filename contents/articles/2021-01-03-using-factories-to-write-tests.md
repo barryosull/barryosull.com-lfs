@@ -2,7 +2,7 @@
 title: "Using Factories to Write Tests: A Love Letter to Factories"
 published: true
 description: "Factories are one of the most powerful patterns when writing tests, and here's why."
-tags: tests, factories, design
+tags: tests, factories, design, implementation
 cover_image: https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2F0d0d9828-ff08-11e9-a530-16c6c29e70ca?fit=scale-down&source=next&width=700
 ---
 
