@@ -44,7 +44,7 @@
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
             <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
-                <img alt="logo" class="logo h-8 fill-current inline" src="https://static.thenounproject.com/png/3331774-200.png"/>
+                <img alt="logo" class="logo h-8 fill-current inline" src="/images/icon.svg"/>
                 Barry O'Sullivan
             </a>
         </div>
@@ -130,7 +130,7 @@
         <div class="w-full flex flex-col md:flex-row py-3">
             <div class="flex-3 text-black">
                 <a class="no-underline hover:no-underline font-bold text-xl lg:text-2xl" href="/">
-                    <img alt="logo" class="h-8 fill-current inline" src="https://static.thenounproject.com/png/3331774-200.png"/>
+                    <img alt="logo" class="h-8 fill-current inline" src="/images/icon.svg"/>
                     Barry O'Sullivan
                 </a>
             </div>
