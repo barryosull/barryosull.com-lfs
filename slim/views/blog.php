@@ -1,6 +1,6 @@
 <?php $template = __DIR__ . '/templates/default.php'; ?>
 
-<section class="bg-white border-b pt-16 pb-8">
+<section class="bg-white border-b pt-8 lg:pt-16 pb-8">
     <div class="container max-w-5xl mx-auto m-8">
         <div class="text-black m-2">
             <h1 class="text-2xl font-bold mb-3">Blog</h1>
