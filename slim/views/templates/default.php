@@ -11,6 +11,9 @@
 <meta name="keywords" content="" />
 <meta name="author" content="Barry O'Sullivan" />
 <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/prismjs@1.23.0/themes/prism-okaidia.css" />
+
 <!--Replace with your tailwind.css once created-->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
 
@@ -237,11 +240,15 @@
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-112076964-1');
     </script>
 <?php endif; ?>
-<script src="/themes/kiss/js/prism.js"></script>
+
+<script src="https://unpkg.com/prismjs@1.23.0/components/prism-core.min.js"></script>
+<script src="https://unpkg.com/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+
 </body>
 </html>

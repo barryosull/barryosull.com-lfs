@@ -53,4 +53,3 @@
     </div>
 </section>
 
-<script src="/themes/kiss/js/prism.js"></script>
