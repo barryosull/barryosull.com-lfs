@@ -3,7 +3,7 @@ title: "Using Factories to Write Tests: A Love Letter to Factories"
 published: true
 description: "Factories are one of the most powerful patterns when writing tests, and here's why."
 tags: tests, factories, design
-cover_image: https://i.ytimg.com/vi/BqaAjgpsoW8/maxresdefault.jpg
+cover_image: https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2F0d0d9828-ff08-11e9-a530-16c6c29e70ca?fit=scale-down&source=next&width=700
 ---
 
 Hello there and welcome to an article I've wanted to write about factories for a very long time. This article is really a love letter to the humble factory. As a pattern it could not be simpler, yet it is the most powerful and paradoxically the most underused pattern when writing tests. An ambitious statement, let's dig in and see where we get.
@@ -11,7 +11,7 @@ Hello there and welcome to an article I've wanted to write about factories for a
 ## What is a Factory
 Ok, so this seems really basic and I imagine there are a lot of rolling eyeballs right now, but let's go through the definition I'm using, just so we're all on the same page.
 
-A factory is something that creates an object in a certain state. Factories return scalar values or classes (ValueObjects, Commands, Entities, Services, etc . . ., doesn't matter). The states of the objects can be generic default states or specialised named states, it depends on the context.
+A factory is something that creates an object in a certain state. Factories return scalar values or classes (ValueObjects, Commands, Entities, Services, etc . . . , doesn't matter). The states of the objects can be generic default states or specialised named states, it depends on the context.
 
 Factories can be as simple as static methods or as complex as builders. Here are three basic examples.
 

@@ -9,10 +9,10 @@
                         <div style="padding-top: 42%; background-size: cover; background-color:#e3dac6;background-image:url(<?php echo $article->coverImage; ?>)"></div>
                     <?php endif; ?>
 
-                    <h1 class="text-2xl font-bold mb-3"><?php echo $article->title; ?></h1>
+                    <h1 class="text-3xl font-bold mt-9 mb-6"><?php echo $article->title; ?></h1>
 
                 </header>
-                <div class="entry-content markdown">
+                <div class="entry-content prose" style="max-width: max-content">
                     <?php echo (new ParsedownExtra)->parse($article->content); ?>
 
                     <a href="https://twitter.com/intent/tweet?text=<?php echo $article->title?>&url=http%3A%2F%2Fbarryosull.com%2Fblog%2F<?php echo $article->slug?>&via=barryosull" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
@@ -22,3 +22,5 @@
         </div>
     </div>
 </section>
+
+<script src="/themes/kiss/js/prism.js"></script>
