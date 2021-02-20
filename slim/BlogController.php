@@ -16,17 +16,51 @@ class BlogController
         $renderer = new Renderer();
 
         $page = $this->getPage($args);
-        $category = $args['category'] ?? null;
+        $activeCategory = $args['category'] ?? null;
 
-        $articles = $contentRepository->fetchCollection($category, false);
+        $articles = $contentRepository->fetchCollection($activeCategory, false);
         $categories = $contentRepository->fetchAllCategories();
 
         $urlPrevPage = $this->getUrlForPrevPage($page);
         $urlNextPage = $this->getUrlForNextPage($articles, $page, self::PER_PAGE);
 
+        $mainCategories = [
+            [
+                'title' => 'Architecture',
+                'slug' => 'architecture',
+                'color' => 'bg-red-500 hover:bg-red-400',
+            ],
+            [
+                'title' => 'Development Strategy',
+                'slug' => 'development-strategy',
+                'color' => 'bg-green-500 hover:bg-green-400',
+            ],
+            [
+                'title' => 'Event Sourcing',
+                'slug' => 'event-sourcing',
+                'color' => 'bg-blue-500 hover:bg-blue-400',
+            ],
+            [
+                'title' => 'Implementation',
+                'slug' => 'implementation',
+                'color' => 'bg-yellow-500 hover:bg-yellow-400',
+            ],
+            [
+                'title' => 'Experiments',
+                'slug' => 'experiments',
+                'color' => 'bg-purple-500 hover:bg-purple-400',
+            ]
+        ];
+
+        $categoryTitle = array_reduce($mainCategories, function ($return, $mainCategory) use ($activeCategory) {
+           return $mainCategory['slug'] === $activeCategory ? $mainCategory['title'] : $return;
+        }, $activeCategory);
+
         $body = $renderer->render("blog", [
             'articles' => array_slice($articles, $page * self::PER_PAGE, self::PER_PAGE),
+            'categoryTitle' => $categoryTitle,
             'categories' => $categories,
+            'mainCategories' => $mainCategories,
             'title' => "Blog",
             'urlPrevPage' => $urlPrevPage,
             'urlNextPage' => $urlNextPage,

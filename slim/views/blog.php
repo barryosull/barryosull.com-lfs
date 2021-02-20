@@ -3,8 +3,19 @@
 <section class="bg-white border-b pt-8 lg:pt-16 pb-8">
     <div class="w-full container mx-auto max-w-5xl mx-auto m-8">
         <div class="text-black m-2">
-            <h1 class="text-2xl font-bold mb-3">Blog</h1>
-            <h2 class="text-xl mb-6">I have many interests in software development and I enjoy writing about then. As such my blog doesn't cover just one topic.</h2>
+            <h1 class="text-2xl font-bold mb-3">Blog: <?php echo $categoryTitle ?></h1>
+            <p class="text-lg mb-6">My thoughts on software development.</p>
+
+            <div class="text-xl font-bold mb-4">Categories</div>
+            <p class="text-lg mb-3">I have many interests in software development and I enjoy writing about then. As such my blog doesn't cover just one topic.</p>
+
+            <div class="flex flex-row space-x-4 mb-8">
+                <?php foreach ($mainCategories as $category): ?>
+                <a href="/blog/category/<?php echo $category['slug'] ?>" class="flex-1 <?php echo $category['color'] ?> text-base text-center text-white py-2 px-2 font-bold rounded-full ">
+                    <?php echo $category['title'] ?>
+                </a>
+                <?php endforeach; ?>
+            </div>
 
             <?php if (empty($articles)): ?>
                 <p>Sorry - no articles found.</p>
