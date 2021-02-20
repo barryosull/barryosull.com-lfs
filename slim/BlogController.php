@@ -57,6 +57,7 @@ class BlogController
         }, $activeCategory);
 
         $body = $renderer->render("blog", [
+            'hasActiveCategory' => $activeCategory !== null,
             'articles' => array_slice($articles, $page * self::PER_PAGE, self::PER_PAGE),
             'categoryTitle' => $categoryTitle,
             'categories' => $categories,
