@@ -30,7 +30,7 @@
                 <div id="articles" class="col-span-4 lg:col-span-3">
                     <?php if (empty($articles)): ?>
                         <p>Sorry - no articles found.</p>
-                    <?php endif: ?>
+                    <?php endif; ?>
                     <?php foreach ($articles as $article): ?>
                         <article class="mb-6 py-3 px-6 shadow-md rounded-md">
                             <header>
