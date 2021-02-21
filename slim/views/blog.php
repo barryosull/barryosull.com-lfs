@@ -26,28 +26,26 @@
                         </div>
                     <?php endforeach; ?>
                 </div>
-            </div>
-
-            <?php if (empty($articles)): ?>
-                <p>Sorry - no articles found.</p>
-            <?php else: ?>
-                <div class="grid grid-cols-4">
-                    <div id="articles" class="col-span-4 lg:col-span-3">
-                        <?php foreach ($articles as $article): ?>
-                            <article class="mb-6 py-3 px-6 shadow-md rounded-md">
-                                <header>
-                                    <h2 class="text-xl font-bold mb-3"><a href="<?php echo $article->url; ?>"><?php echo $article->title; ?></a></h2>
-                                </header>
-                                <blockquote class="article-excerpt overflow-hidden">
-                                    <?php echo $article->excerpt; ?>
-                                    <a href="<?php echo $article->url; ?>" class="float-right border rounded mt-2 pl-2 pr-2 bg-white hover:bg-gray-100">Read more &raquo;</a>
-                                    <div style="clear:both"></div>
-                                </blockquote>
-                            </article>
-                        <?php endforeach; ?>
-                    </div>
+                   
+                <div id="articles" class="col-span-4 lg:col-span-3">
+                    <?php if (empty($articles)): ?>
+                        <p>Sorry - no articles found.</p>
+                    <?php endif: ?>
+                    <?php foreach ($articles as $article): ?>
+                        <article class="mb-6 py-3 px-6 shadow-md rounded-md">
+                            <header>
+                                <h2 class="text-xl font-bold mb-3"><a href="<?php echo $article->url; ?>"><?php echo $article->title; ?></a></h2>
+                            </header>
+                            <blockquote class="article-excerpt overflow-hidden">
+                                <?php echo $article->excerpt; ?>
+                                <a href="<?php echo $article->url; ?>" class="float-right border rounded mt-2 pl-2 pr-2 bg-white hover:bg-gray-100">Read more &raquo;</a>
+                                <div style="clear:both"></div>
+                            </blockquote>
+                        </article>
+                    <?php endforeach; ?>
                 </div>
-            <?php endif; ?>
+            </div>
+    
 
             <?php if (!empty($urlPrevPage) || !empty($urlNextPage)): ?>
                 <nav class="pagination">
@@ -67,4 +65,3 @@
         </div>
     </div>
 </section>
-
