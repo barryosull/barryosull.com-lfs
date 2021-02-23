@@ -65,8 +65,25 @@
 
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/2 p-6">
-                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Process_re_gws7.svg" alt="the legacy process">
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Online_collaboration_re_bkpm.svg" alt="what I can do for you">
             </div>
+            <div class="w-5/6 sm:w-1/2 p-6">
+                <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                    What I can do for you:
+                </h3>
+                <p class="text-gray-600 mb-8">
+                    I can help you if you're in the following situations:
+                </p>
+                <ul class="text-gray-600 mb-8 list-disc pl-4">
+                    <li>High developer attrition has lead to a codebase no-one can understand or change
+                    <li>Failed rewrite or modernisation that's a drain on resources and isn't delivering value
+                    <li>Growth stage business but development is now a bottleneck and is slowing you down
+                    <li>Hiring more developers isn't scaling and you're going slower, not faster
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap">
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                     The Legacy process:
@@ -86,9 +103,15 @@
                     <li><b>Org Anthropology</b>: Understand the org culture and history; gain deeper understanding of the product</li>
                 </ul>
             </div>
+            <div class="w-full sm:w-1/2 p-6">
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Process_re_gws7.svg" alt="the legacy process">
+            </div>
         </div>
 
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+            <div class="w-full sm:w-1/2 p-6 mt-6">
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_project_team_lc5a.svg" alt="how I work">
+            </div>
             <div class="w-full sm:w-1/2 p-6 mt-6">
                 <div class="align-middle">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
@@ -102,15 +125,9 @@
                     </p>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 p-6 mt-6">
-                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_project_team_lc5a.svg" alt="how I work">
-            </div>
         </div>
 
         <div class="flex flex-wrap">
-            <div class="w-full sm:w-1/2 p-6">
-                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Code_thinking_re_gka2.svg" alt="technologies">
-            </div>
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                     Technologies:
@@ -118,6 +135,9 @@
                 <p class="text-gray-600 mb-8">
                     I primarily work in legacy PHP codebases, but I'm also skilled in improving Javascript systems and can get comfortable in most programming languages. Messy code takes common shapes, usually based on the paradigms of the language, once you understand those you can spot the patterns and create solutions.
                 </p>
+            </div>
+            <div class="w-full sm:w-1/2 p-6">
+                <img class="w-full md:w-4/5 z-50 rounded-md" src="/images/undraw_Code_thinking_re_gka2.svg" alt="technologies">
             </div>
         </div>
     </div>
