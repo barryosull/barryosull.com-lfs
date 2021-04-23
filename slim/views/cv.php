@@ -1,29 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Barry O'Sullivan's CV</title>
+<title>Barry O'Sullivan's CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+body {
+    background: rgb(204,204,204);
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+.page {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1cm 1.5cm;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+@media print {
+    body, .page {
+        margin: 0;
+        box-shadow: none;
+    }
+}
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headshot {
+    height: 3cm;
+    padding-right: 0.7cm;
+    flex: 0 0 3cm;
+    border-radius: 4px;
+}
+
+.details {
+    flex-grow: 4;
+}
+
+.details h1 {
+    display: inline-block;
+    padding-right: 1cm;
+    font-size: 24px;
+}
+
+.details h2 {
+    display: inline-block;
+    font-size: 12px;
+    float: right;
+    margin-top: 0.7cm;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    text-align: right;
+}
+
+.highlights {
+    text-align: center;
+    margin: 0.5cm 0.25cm 0.25cm;
+    font-weight: bold;
+}
+
+.body h2 {
+    margin-bottom: 0.3cm;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills h3 {
+    margin-top: 0;
+    margin-bottom: 0.1cm;
+}
+
+.skills ul {
+    padding-left: 0.6cm;
+}
+
+.projects h3 {
+    margin-bottom: 0.1cm;
+}
+
+.projects ul {
+    margin-top: 0.1cm;
+    padding-left: 0.6cm;
+}
+
+.employment h3 {
+    margin-bottom: 0.1cm;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+</style>
 </head>
 <body>
 <div class="page">
     <div class="header">
-        <img alt="Headshot" src="https://via.placeholder.com/150"/>
-        <div class="details">
-            <h1>Barry O’Sullivan</h1>
-            <h2>86 Meadowgate, Gorey, Co. Wexford</h2>
-            <div class="links">
-                <div>
-                    Github: https://github.com/barryosull<br/>
-                    Website: https://barryosull.com<br/>
-                    LinkedIn: http://ie.linkedin.com/in/barryosu/
-                </div>
-                <div>
-                    Email: barry@tercet.io<br/>
-                    Phone: 086 8045104<br/>
-                    Twitter: @barryosull
+        <div class="two-col">
+            <img alt="Headshot" src="/images/me.jpg" id="headshot">
+            <div class="details">
+                <h1>Barry O’Sullivan</h1>
+                <h2>86 Meadowgate, Gorey, Co. Wexford</h2>
+                <div class="links">
+                    <div>
+                        Github: https://github.com/barryosull<br/>
+                        Website: https://barryosull.com<br/>
+                        LinkedIn: http://ie.linkedin.com/in/barryosu/
+                    </div>
+                    <div class="contact">
+                        Email: barry@tercet.io<br/>
+                        Phone: 086 8045104<br/>
+                        Twitter: @barryosull
+                    </div>
                 </div>
             </div>
-            <div class="highlights">Lead Developer - Software Engineer - Architect - DDD Practitioner - Conference Speaker</div>
         </div>
+        <div class="highlights">Lead Developer - Software Engineer - Architect - DDD Practitioner - Conference Speaker</div>
     </div>
     <div class="body">
         <div class="section">
@@ -33,52 +144,62 @@
         </div>
         <div class="section">
             <h2>Skills</h2>
-            <div>
+            <div class="skills">
                 <div>
-                    Development<br/>
-                    - PHP (15y)<br/>
-                    - MySQL (15yr)<br/>
-                    - HTML/CSS (15yr)<br/>
-                    - Javascript (12yr)<br/>
+                    <h3>Development</h3>
+                    <ul>
+                        <li>PHP (15yr)</li>
+                        <li>MySQL (15yr)</li>
+                        <li>HTML/CSS (15yr)</li>
+                        <li>Javascript (12yr)</li>
+                    </ul>
                 </div>
                 <div>
-                    Processes<br/>
-                    - CI/CD<br/>
-                    - Agile development<br/>
-                    - Kanban<br/>
-                    - Scrum<br/>
-                    - Event Storming<br/>
+                    <h3>Processes</h3>
+                    <ul>
+                        <li>CI/CD</li>
+                        <li>Agile development</li>
+                        <li>Kanban</li>
+                        <li>Scrum</li>
+                        <li>Event Storming</li>
+                    </ul>
                 </div>
                 <div>
-                    Architecture/Design<br/>
-                    - Legacy refactoring<br/>
-                    - Service extraction<br/>
-                    - Event Sourcing<br/>
-                    - TDD<br/>
-                    - DDD<br/>
+                    <h3>Architecture/Design</h3>
+                    <ul>
+                        <li>Legacy refactoring</li>
+                        <li>Service extraction</li>
+                        <li>Event Sourcing</li>
+                        <li>TDD</li>
+                        <li>DDD</li>
+                    </ul>
                 </div>
                 <div>
-                    Frameworks<br/>
-                    - Laravel<br/>
-                    - CodeIgniter<br/>
-                    - Zend<br/>
-                    - Slim<br/>
-                    - Express<br/>
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>Laravel</li>
+                        <li>CodeIgniter</li>
+                        <li>Zend</li>
+                        <li>Slim</li>
+                        <li>Express</li>
+                    </ul>
                 </div>
                 <div>
-                    Core skills<br/>
-                    - Problem solver<br/>
-                    - Fast learner<br/>
-                    - Goal orientated<br/>
-                    - Documentation<br/>
-                    - Metric driven<br/>
+                    <h3>Core skills</h3>
+                    <ul>
+                        <li>Problem solver</li>
+                        <li>Fast learner</li>
+                        <li>Goal orientated</li>
+                        <li>Documentation</li>
+                        <li>Metric driven</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section projects">
             <h2>Projects</h2>
 
-            <h3>Adverts.ie (https://adverts.ie)</h3>:
+            <h3>Adverts.ie (https://adverts.ie):</h3>
             <ul>
                 <li>Replaced entire payment system in prep for SCA with zero downtime</li>
                 <li>Designed and implemented cross share functionality with DoneDeal team</li>
@@ -92,27 +213,37 @@
                 <li>Trained dev team in clean architecture, testing and legacy refactoring</li>
             </ul>
         </div>
-        <div class="section">
+        <div class="section employment">
             <h2>Employment</h2>
             <p>
-                <b>PHP Consultant, Architect & Contractor:</b> 2018 - now<br/>
+            <h3>PHP Consultant, Architect & Contractor: 2018 - now</h3>
                 Self employed contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping the product and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team and improve design/refactoring/architecture skills and processes.
             </p>
             <p>
-                <b>Lead Developer/Architect:</b> 2016 - 2018<br/>
+                <h3>ead Developer/Architect: 2016 - 2018</h3>
                 Architected and implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing and domain exploration, ensuring we had the skills to execute and build a scalable SPA.
 
             </p>
             <p>
-                <b>Software Development Manager:</b> 2014 - 2016<br/>
+                <h3>Software Development Manager: 2014 - 2016</h3>
                 Managed the development of a new recruiting application for HiUp. Implemented an event-sourced,  Domain Driven Designed application, with a microservice based architecture. Looked after all aspects of  development, including Android and front-end Javascript.
             </p>
         </div>
         <div class="section">
             <h2>Education</h2>
-            Trinity College Dublin (2008 - 2009) 			Trinity College Dublin (2004 - 2008)
-            Msc Computer Science				BA(mod) Computer Science
-            References are available on request
+            <div class="education">
+                <div>
+                    Trinity College Dublin (2008 - 2009)<br/>
+                    Msc Computer Science
+                </div>
+                <div>
+                    Trinity College Dublin (2004 - 2008)<br/>
+                    BA(mod) Computer Science
+                </div>
+            </div>
+            <p>
+                References are available on request
+            </p>
         </div>
     </div>
 </div>
