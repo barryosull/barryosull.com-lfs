@@ -70,6 +70,7 @@ h2 {
     font-size: 12px;
     float: right;
     margin-top: 0.26cm;
+    color: #fff;
 }
 
 .links {
