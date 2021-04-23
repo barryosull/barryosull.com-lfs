@@ -60,6 +60,7 @@ h2 {
 
 .details h1 {
     margin-top: 0;
+    margin-bottom: 0.67cm;
     display: inline-block;
     padding-right: 1cm;
     font-size: 24px;
@@ -76,6 +77,16 @@ h2 {
 .links {
     display: flex;
     justify-content: space-between;
+    line-height: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .contact {
@@ -144,14 +155,14 @@ p {
                 <h2>86 Meadowgate, Gorey, Co. Wexford</h2>
                 <div class="links">
                     <div>
-                        Github: https://github.com/barryosull<br/>
-                        Website: https://barryosull.com<br/>
-                        LinkedIn: http://ie.linkedin.com/in/barryosu/
+                        Github: <a href="https://github.com/barryosull">https://github.com/barryosull</a><br/>
+                        Website: <a href="https://barryosull.com">https://barryosull.com</a><br/>
+                        LinkedIn: <a href="http://ie.linkedin.com/in/barryosu/">http://ie.linkedin.com/in/barryosu/</a>
                     </div>
                     <div class="contact">
                         Email: barry@tercet.io<br/>
                         Phone: 086 8045104<br/>
-                        Twitter: @barryosull
+                        Twitter: <a href="https://twitter.com/barryosull">@barryosull</a>
                     </div>
                 </div>
             </div>
@@ -223,16 +234,16 @@ p {
 
             <h3>Adverts.ie (https://adverts.ie):</h3>
             <ul>
-                <li>Replaced entire payment system in prep for SCA with zero downtime</li>
-                <li>Designed and implemented cross share functionality with DoneDeal team</li>
-                <li>Introduced “Orders” concept iteratively so multiple products could be purchased at</li>
+                <li>SCA: Replaced entire payment system for SCA with zero downtime</li>
+                <li>Cross-sell: Designed and implemented cross share functionality with DoneDeal, 200k profit pa</li>
+                <li>Upsells: Introduced “Orders” concept iteratively so multiple products/upsells could be purchased at once</li>
             </ul>
 
             <h3>Journal.ie (https://thejournal.ie):</h3>
             <ul>
-                <li>Rewrote and fixed high traffic view tracking microservice with zero downtime</li>
-                <li>Planned and implemented iterative migration of legacy (12yr+) codebase over to responsive layout</li>
-                <li>Trained dev team in clean architecture, testing and legacy refactoring</li>
+                <li>View tracking: Rewrote and fixed high traffic view tracking microservice with zero downtime</li>
+                <li>Responsive migration: Planned and implemented iterative migration of legacy (12yr+) codebase over to responsive layout</li>
+                <li>Design training: Trained dev team in clean architecture, testing and legacy refactoring</li>
             </ul>
         </div>
         <div class="section employment">
