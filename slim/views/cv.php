@@ -35,6 +35,7 @@ body {
     color: #fff;
     margin: -1cm -1.5cm 0 -1.5cm;
     padding: 1cm 1.5cm 0.2cm 1.5cm;
+    border-bottom-right-radius: 20px;
 }
 
 .two-col {
@@ -49,9 +50,11 @@ h2 {
 
 #headshot {
     height: 3cm;
-    padding-right: 0.7cm;
+    margin-right: 0.7cm;
     flex: 0 0 3cm;
-    border-radius: 4px;
+    border-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .details {
