@@ -19,6 +19,7 @@ class UrlService
     {
         $staticUrls = [
             "/",
+            "/cv",
             "/talks",
             "/blog/feed",
         ];
