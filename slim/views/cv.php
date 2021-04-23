@@ -22,6 +22,7 @@ body {
     padding: 1cm 1.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
+
 @media print {
     body, .page {
         margin: 0;
@@ -29,9 +30,21 @@ body {
     }
 }
 
+.header {
+    background-color: #263f71;
+    color: #fff;
+    margin: -1cm -1.5cm 0 -1.5cm;
+    padding: 1cm 1.5cm 0.2cm 1.5cm;
+}
+
 .two-col {
     display: flex;
     justify-content: space-between;
+}
+
+h2 {
+    border-bottom: 1px solid #263f71;
+    color: #263f71;
 }
 
 #headshot {
@@ -46,6 +59,7 @@ body {
 }
 
 .details h1 {
+    margin-top: 0;
     display: inline-block;
     padding-right: 1cm;
     font-size: 24px;
@@ -55,7 +69,7 @@ body {
     display: inline-block;
     font-size: 12px;
     float: right;
-    margin-top: 0.7cm;
+    margin-top: 0.26cm;
 }
 
 .links {
@@ -71,6 +85,7 @@ body {
     text-align: center;
     margin: 0.5cm 0.25cm 0.25cm;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .body h2 {
@@ -89,6 +104,8 @@ body {
 
 .skills ul {
     padding-left: 0.6cm;
+    margin-top: 0.1cm;
+    margin-bottom: 0;
 }
 
 .projects h3 {
@@ -111,6 +128,7 @@ body {
 
 p {
     text-align: justify;
+    margin-top: 0;
 }
 
 </style>
@@ -222,7 +240,7 @@ p {
             <p>
                 Self employed contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping the product and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team and improve design/refactoring/architecture skills and processes.
             </p>
-            <h3>ead Developer/Architect: 2016 - 2018</h3>
+            <h3>Lead Developer/Architect: 2016 - 2018</h3>
             <p>
                 Architected and implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing and domain exploration, ensuring we had the skills to execute and build a scalable SPA.
             </p>
@@ -244,6 +262,7 @@ p {
                 </div>
             </div>
             <p>
+                <br/>
                 References are available on request
             </p>
         </div>
