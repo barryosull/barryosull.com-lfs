@@ -65,6 +65,9 @@
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/talks">Talks</a>
                 </li>
                 <li class="mr-3">
+                    <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/cv">CV</a>
+                </li>
+                <li class="mr-3">
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://github.com/barryosull">Github</a>
                 </li>
                 <li class="mr-3">
