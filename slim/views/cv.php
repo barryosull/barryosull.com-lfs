@@ -45,8 +45,11 @@ body {
 }
 
 h2 {
-    border-bottom: 1px solid #263f71;
     color: #263f71;
+}
+
+.body h2 {
+    border-bottom: 1px solid #263f71;
 }
 
 #headshot {
@@ -74,7 +77,7 @@ h2 {
     display: inline-block;
     font-size: 12px;
     float: right;
-    margin-top: 0.26cm;
+    margin-top: 0.3cm;
     color: #fff;
 }
 
