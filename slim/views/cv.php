@@ -31,7 +31,8 @@ body {
 }
 
 .header {
-    background-color: #263f71;
+    background: rgb(38,63,113);
+    background: linear-gradient(120deg, rgba(38,63,113,1) 15%, rgba(27,97,161,1) 100%);
     color: #fff;
     margin: -1cm -1.5cm 0 -1.5cm;
     padding: 1cm 1.5cm 0.2cm 1.5cm;
