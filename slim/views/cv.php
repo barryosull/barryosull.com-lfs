@@ -20,7 +20,6 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 1cm 1.5cm;
-    margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
 @media print {
@@ -110,6 +109,10 @@ body {
     justify-content: space-between;
 }
 
+p {
+    text-align: justify;
+}
+
 </style>
 </head>
 <body>
@@ -134,12 +137,12 @@ body {
                 </div>
             </div>
         </div>
-        <div class="highlights">Lead Developer - Software Engineer - Architect - DDD Practitioner - Conference Speaker</div>
+        <div class="highlights">Software Engineer - Architect - DDD Practitioner - Conference Speaker - PHP Dublin Organiser</div>
     </div>
     <div class="body">
         <div class="section">
             <h2>About me</h2>
-            <p>I am an experienced software developer that has built, maintained & extended high traffic web applications. I've architected and implemented many products and have extensive experience working in existing codebases and improving quality. I am passionate about building software effectively. For the last three years I have been working as a contractor to hone my skills at refactoring and improving legacy systems, now I'm ready to take those skills and apply them in bigger ways.
+            <p>Experienced software developer that has built, maintained & extended high traffic web applications. I've architected and implemented many products and have extensive experience working in existing codebases and improving quality. I am passionate about building software effectively. For the last three years I have been working as a contractor to hone my skills at refactoring and improving legacy systems, now I'm ready to take those skills and apply them in bigger ways.
             </p>
         </div>
         <div class="section">
@@ -215,17 +218,16 @@ body {
         </div>
         <div class="section employment">
             <h2>Employment</h2>
-            <p>
             <h3>PHP Consultant, Architect & Contractor: 2018 - now</h3>
+            <p>
                 Self employed contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping the product and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team and improve design/refactoring/architecture skills and processes.
             </p>
+            <h3>ead Developer/Architect: 2016 - 2018</h3>
             <p>
-                <h3>ead Developer/Architect: 2016 - 2018</h3>
                 Architected and implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing and domain exploration, ensuring we had the skills to execute and build a scalable SPA.
-
             </p>
+            <h3>Software Development Manager: 2014 - 2016</h3>
             <p>
-                <h3>Software Development Manager: 2014 - 2016</h3>
                 Managed the development of a new recruiting application for HiUp. Implemented an event-sourced,  Domain Driven Designed application, with a microservice based architecture. Looked after all aspects of  development, including Android and front-end Javascript.
             </p>
         </div>
