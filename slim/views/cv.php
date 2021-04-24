@@ -241,31 +241,31 @@ p {
 
             <h3>Adverts.ie (https://adverts.ie):</h3>
             <ul>
-                <li>SCA: Replaced entire payment system for SCA with zero downtime</li>
-                <li>Cross-sell: Designed and implemented cross share functionality with DoneDeal</li>
-                <li>Upsells: Introduced “Orders” concept iteratively so multiple products/upsells could be purchased at once</li>
+                <li>SCA comoliance: Replaced entire payment system with zero downtime</li>
+                <li>Cross-sell: Designed and implemented highly profitable cross share to DoneDeal feature. Async message based and robust</li>
+                <li>Upsells: Introduced “Orders” iteratively to web &amp; mobile apps so multiple products/upsells could be purchased at once</li>
             </ul>
 
             <h3>Journal.ie (https://thejournal.ie):</h3>
             <ul>
-                <li>View tracking: Rewrote and fixed high traffic view tracking microservice with zero downtime</li>
-                <li>Responsive migration: Planned and implemented iterative migration of legacy (12yr+) codebase over to responsive layout</li>
+                <li>View tracking: Rewrote and fixed high traffic view tracking micro-service with zero downtime</li>
+                <li>Responsive migration: Planned and implemented iterative migration of legacy (12yr+) codebase to responsive layouts</li>
                 <li>Design training: Trained dev team in clean architecture, testing and legacy refactoring</li>
             </ul>
         </div>
         <div class="section employment">
             <h2>Employment</h2>
-            <h3>PHP Consultant, Architect & Contractor: 2018 - now</h3>
+            <h3>PHP Consultant, Architect & Contractor (2018 - now)</h3>
             <p>
-                Self employed contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping the product and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team and improve design/refactoring/architecture skills and processes.
+                Independant contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping product behaviour and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team in design, refactoring and architecture skills.
             </p>
-            <h3>Lead Developer/Architect: 2016 - 2018</h3>
+            <h3>Dynamic Reservations: Lead Developer/Architect (2016 - 2018)</h3>
             <p>
                 Architected and implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing and domain exploration, ensuring we had the skills to execute and build a scalable SPA.
             </p>
-            <h3>Software Development Manager: 2014 - 2016</h3>
+            <h3>Olive Media: Software Development Manager (2014 - 2016)</h3>
             <p>
-                Managed the development of a new recruiting application for HiUp. Implemented an event-sourced,  Domain Driven Designed application, with a microservice based architecture. Looked after all aspects of  development, including Android and front-end Javascript.
+                Managed the development of a new recruiting application for HiUp. Implemented an event-sourced, domain aligned product, with a microservice based architecture. Looked after all aspects of development, including Android and FE Javascript.
             </p>
         </div>
         <div class="section">
