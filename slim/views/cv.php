@@ -242,7 +242,7 @@ p {
             <h3>Adverts.ie (https://adverts.ie):</h3>
             <ul>
                 <li>SCA: Replaced entire payment system for SCA with zero downtime</li>
-                <li>Cross-sell: Designed and implemented cross share functionality with DoneDeal, 200k profit pa</li>
+                <li>Cross-sell: Designed and implemented cross share functionality with DoneDeal</li>
                 <li>Upsells: Introduced “Orders” concept iteratively so multiple products/upsells could be purchased at once</li>
             </ul>
 
