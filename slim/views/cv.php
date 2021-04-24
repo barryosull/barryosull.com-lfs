@@ -179,7 +179,7 @@ p {
     <div class="body">
         <div class="section">
             <h2>About me</h2>
-            <p>Software developer experienced in high traffic web applications. Architected and implemented multiple products with extensive experience working in existing codebases and improving quality. Passionate about building software effectively. Focus for the last three three was improving my ability to refactor and improve quality in legacy systems, now I'm ready to take those skills and apply them in bigger ways.
+            <p>Software developer experienced in high traffic web applications. Architected and implemented multiple products for both startups and established companies. Extensive experience working in existing/legacy codebases and improving quality. Passionate about building software effectively. For the last three years my focus has been legacy PHP, improving my ability to refactor and bring quality to existing systems, now I'm ready to take those skills and apply them in bigger ways.
             </p>
         </div>
         <div class="section">
