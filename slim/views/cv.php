@@ -174,7 +174,7 @@ p {
                 </div>
             </div>
         </div>
-        <div class="highlights">Software Engineer - Architect - DDD Practitioner - Conference Speaker - PHP Dublin Organiser</div>
+        <div class="highlights">Software Engineer - Architect - DDD Specialist - Conference Speaker - PHP Dublin Organiser</div>
     </div>
     <div class="body">
         <div class="section">
