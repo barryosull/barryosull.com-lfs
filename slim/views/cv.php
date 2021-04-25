@@ -242,7 +242,7 @@ p {
             <h3>Adverts.ie (https://adverts.ie):</h3>
             <ul>
                 <li>SCA compliance: Replaced entire payment system iteratively with zero downtime</li>
-                <li>Cross-sell: Designed and implemented highly profitable cross share to DoneDeal feature. Async message based and robust</li>
+                <li>Cross-sell: Designed & implemented cross share to DoneDeal feature. Async message based, robust &amp; highly profitable</li>
                 <li>Upsells: Introduced “Orders” iteratively to web &amp; mobile apps so multiple products/upsells could be purchased at once</li>
             </ul>
 
