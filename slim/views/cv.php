@@ -257,7 +257,7 @@ p {
             <h2>Employment</h2>
             <h3>PHP Consultant, Architect & Contractor (2018 - now)</h3>
             <p>
-                Independant contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping product behaviour and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team in design, refactoring and architecture skills.
+                Independent contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping product behaviour and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team in design, refactoring and architecture skills.
             </p>
             <h3>Dynamic Reservations: Lead Developer/Architect (2016 - 2018)</h3>
             <p>
