@@ -162,14 +162,14 @@ p {
                 <h2>86 Meadowgate, Gorey, Co. Wexford</h2>
                 <div class="links">
                     <div>
-                        Github: <a href="https://github.com/barryosull">https://github.com/barryosull</a><br/>
-                        Website: <a href="https://barryosull.com">https://barryosull.com</a><br/>
-                        LinkedIn: <a href="http://ie.linkedin.com/in/barryosu/">http://ie.linkedin.com/in/barryosu/</a>
+                        Github: <a target="_blank" href="https://github.com/barryosull">https://github.com/barryosull</a><br/>
+                        Website: <a target="_blank" href="https://barryosull.com">https://barryosull.com</a><br/>
+                        LinkedIn: <a target="_blank" href="https://ie.linkedin.com/in/barryosu/">https://ie.linkedin.com/in/barryosu/</a>
                     </div>
                     <div class="contact">
                         Email: barry@tercet.io<br/>
                         Phone: 086 8045104<br/>
-                        Twitter: <a href="https://twitter.com/barryosull">@barryosull</a>
+                        Twitter: <a target="_blank" href="https://twitter.com/barryosull">@barryosull</a>
                     </div>
                 </div>
             </div>
