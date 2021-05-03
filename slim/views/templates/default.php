@@ -36,6 +36,11 @@
         padding: 2px 4px;
     }
 
+    .entry-content img {
+        display: block;
+        margin: 0 auto;
+    }
+
 </style>
 </head>
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
