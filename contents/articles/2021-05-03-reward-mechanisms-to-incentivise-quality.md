@@ -39,7 +39,7 @@ This is why reward mechanisms are so tricky. What seems like virtuous behaviour 
 
 This is a straight forward example with a surprising consequence, let's look at one that's a little more insidious.
 
-![Ideas that make money](/images/idea-to-money-png)
+![Ideas that make money](/images/idea-to-money.png)
 
 ### 2. Ideas that make money
 What about companies that reward good ideas? If your idea gets into the product and makes money, then you should be rewarded, right? That seems obvious, we want people to come up with ideas that makes us money after all, it's win-win!
