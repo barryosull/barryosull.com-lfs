@@ -1,11 +1,10 @@
 ---
 title: "Reward mechanisms: Incentivising quality"
-published: false
+published: true
 description: "Reward mechanisms shape our processes and our feedback loops, how can we use them to encourage quality?"
-tags: management, legacy
-cover_image: https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2F0d0d9828-ff08-11e9-a530-16c6c29e70ca?fit=scale-down&source=next&width=700
+tags: management, legacy, leadership, productivity
+cover_image: https://www.edureka.co/blog/wp-content/uploads/2019/08/SQA-testing-2-528x255.png
 ---
-
 Show me your reward mechanisms and I'll show you your problems.
 
 I've been thinking a lot about reward mechanisms, how they incentivise us and how they can be gamed. They exist to ensure we're going in the right direction, defining a win scenario as tightly as possible, and if they're poorly chosen they can lead to a company collapsing slowly over time. Like any tool they are both a blessing and curse.
@@ -29,7 +28,7 @@ Let's look at two common reward mechanisms and how they can lead to vicious posi
 1. Fire fighting
 2. Ideas that make money
 
-![Fire fighting](https://static01.nyt.com/images/2016/08/05/us/05onfire1_xp/05onfire1_xp-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale)
+![Fire fighting](/images/this-is-fine.jpg)
 
 ### 1. Fire Fighting
 Does your organisation reward fire fighting? Does it promote people that "rise to the challenge" and "save the day" when things go wrong? Congratulations, you are selecting for people that take shortcuts and will actively ignore fires until they become room engulfing blazes.
@@ -55,7 +54,7 @@ It gets even worse at the execution level. Management is incentivised to get the
 
 Here we see how what looks naively like an optimal reward mechanism can lead to negative behaviours. As a vicious positive feedback loop this one is particularly common and dangerous. It has the same fundamental flaw of the reward mechanism above, the short term behaviour it incentivises has long term consequences that lead to a decaying product. How do we work around this?
 
-![Quality](https://lh3.googleusercontent.com/proxy/wGdhryet_idHuaivRX0rBiJK20QtaiL8F_yqf2Y3lb4RIE-JE4BReSTYy7yVn4k7LOWWt1j5GDcDFHXKwgpQzj_Xl2WCjnBgy-pUNS6_)
+![Quality](/images/quality-abstract.jpg)
 
 
 ## Incentivising Quality
