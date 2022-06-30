@@ -1,0 +1,433 @@
+---
+title: DDD EU 2022
+published: true
+description: Notes from the talks I attended at DDD EU 2022
+tags: ddd, arachitecture, management, legacy
+cover_image: https://res.cloudinary.com/value-object/image/upload/t_opengraph/v1615494785/landingpage/DDDEU-landing-hero.png
+---
+
+Here are my notes from [DDD EU 2022](https://2022.dddeurope.com/schedule/). It was a great conference this year with a focus on models, growth, managing complexity and dealing with legacy.
+
+Will definitely review these notes in the near future and see how I can apply them to my work day to day.
+
+
+## Opening Keynote
+Speakers:
+- Andrew Harmel-Law
+- Diana Montalion
+- Mike Rozinsky
+- Gayathri Thiyagarajan
+
+**The advice process:**
+- When working on something, get advice from two groups:
+	- Those affected by the decision
+	- Experts in the area
+- Then it's up to you to decide
+
+The goal is to free up decision bottlenecks from making decisions and to democratise architecture.
+
+No checks, no barriers, whatever you decide goes.
+
+"Lead by example" vs "exert control".
+
+Discussed amongst ourselves: Would this work or fail? Why?
+
+We realised that most of us already followed this process to some degree. The more senior someone is, the more they would seek advice but ultimately the decision would be theirs.
+
+A great mindset for growing self reliance and independence, a bad mindset for those used to a standard tayloristist model, i.e. "I decide, you do".
+
+Would involce a junior being able to release whatever they want without review, however, they would have the choice to wait for an approval before release.
+
+Kind of breaks the PR approval process, must have a review beforehand, but given the nature of PRs, if the PR is the first time someone is seeing the concept, then they're not likely to spot bugs anyway.
+
+Requires trust and psychological safety.
+
+
+## Residulaity theory
+- Barry O'Reilly
+
+Software is Ordered (predicable, static)
+Business processes and people are disordered (unpredicable, adaptive)
+
+The focus os this theory is on the software side,
+
+Wheere did this talk come from?
+- Some architects consistently design systems that can handle unknown stressors
+	- I.e. they build resiliant systems
+- Overall industry success rate of building resiliant systems is 17%
+
+What are these architects doing that others aren't?
+
+We can handle some of the known unknowns, but those aren't what breaks your system, it's the unknown unknowns that getcha.
+
+Figure out the knowns and known unknowns:
+
+Requirements gathering is like throwing darts at a wall with a circle somewhere in it.
+- Sometimes we hit the circle and that's requirement for change
+- Other times we hit outside and that's something that should stay the same
+
+I.e. a random simulation of the environment => requirement gathering
+
+Every system has attractors, be these for success paths or failure paths
+- See chaos theory
+
+We design systems areound happy path attractors and ignore failure path attractors
+
+No wonder our systems are brittle
+
+A connected network has square root of N boolean states
+
+Kaufman networks: NKP
+- N = Nodes
+- K = Connection count
+- P = I'll get back to you on that one
+
+We need to make the simulation more random
+
+Residue: What's left over when a stressor breaks a system
+- Map out what parts of your system work and what breaks under a stressor
+- Build up a map of residues for different stressors and attractors
+- Try to merge and build a system that can handle all
+
+Handling one stressor tends to handle many due to nature of attractors
+
+There is coupling we cannot see until a stressor affects a system
+This coupling is called "Hyperliminal coupling"
+
+Testing your resiliancy:
+- Take a naive system (N)
+- Create a stressor list
+- Use half to create residues and design a robust system (R)
+	- Dont need to build it just yet
+- Use other half to verify if system R can handle stressors better than N
+
+Equation:
+
+R = Residue count
+X = New stressors handled by N
+Y = New stressors handled by R
+
+```
+	    Y - X
+Ri = -------
+	      S
+```
+Ri > 0 = System can handle the unknown
+
+This is called residual analysis
+
+Important caveat: Only works for software, not suitable for organisations and people.
+
+Speaker has a PHD based on this very topic
+
+
+## DDD at Scale
+- Xin Yao
+- https://speakerdeck.com/xinyaodk/domain-driven-architecture-at-scale-ddd-eu-2022
+
+Chief Architect at Deutsch Bank (I think)
+
+They spotified and inverse conwayed
+
+Issues withg compounding complexity:
+- Reshuffled teams
+- Complex domains
+- Legacy systemns
+
+Noticed a recurring problem due to self organised teams
+They'd optimised the parts (teams) not the connectons (relationships)
+```
+	  (t)   <--- Good :)
+   /   \
+  /     \ <--- Bad :(
+(t)		  (t)
+```
+Alignment does not necessarily bring coherence 
+
+Common purpose can be an invisible leader
+
+Value Bets:     Works Bets:
+- North Star 	- Opportunities
+- Strategic		- Implementations
+
+They have their own language for describing this
+
+Basically a hierarchy
+
+North Star => Inputs => Opportunities => Implementations
+
+Involves implementors in North Start and Inputs collection
+
+Opportunities are solution agnostic
+
+Software at Scale suffers from temporal anomalies:
+- Language drifts
+- Models fragement
+
+When strategising think of your vision of the future through a future cone.
+
+We can see the proable, plausible and the maybe
+
+Strategic goal:
+Can we improve our odds of deciding and acting with better correspondance to an emergent reality?
+
+Revenge of Conways law:
+- Shipping org charts
+- Empowerment not helping
+
+Problem: Teams have different initiatives affecting the same solution space
+Result: No collaboration
+
+Goal: How do we add our change with reducing optionality for other teams operating in the solution space?
+
+Being a maker is a multplier
+- We can improve things and increase momentum
+
+
+## Functional Aggregate Design
+- Thomas Ploch
+- https://slides.com/tploch/what-is-a-ddd-aggregate
+
+Process theorises why something happens
+Variant theorises how something happens
+
+Process is temporal
+Variant is state based
+
+Four types of process theory:
+- Evolution: Change through time
+- Dialectic: How power shifts and causes change (e.g. politics)
+- Telelogical: Plan of action
+- Lifecycle: End state and how to get there
+
+Aggregates are experiments into implementing a process theory
+
+State machines have limitiations:
+- No parallel processing per aggregate instance (sync)
+- Does not support random ordering of messages
+
+Transducer (new term) take state and output events
+
+Types of objects:
+- Commands
+- Behaviour
+- Invariants
+- Events
+- Policies
+
+
+## Distributed Pain
+Speakers:
+- Sara Pellegrini
+- Milan Savić
+
+Mostly a talk on async messaging problems and strategies.
+
+Avoid building a distributed system for as long as you can, they open up many can of worms.
+
+Discussed various techniques:
+- Retry
+- Circuit Breaker
+- Idempotence
+	- Command ID when theres no aggregates
+
+Most of this is already written in patterns around distributed systems, talk is more of primer in the concepts.
+
+Two types of solution:
+- Technical
+- Design
+
+Design is the best place to fix, if you can design your system so the problem doesn't exist then you're in a better position.
+
+Be evolution ready:
+- Stay responsive
+- Accept responsibility
+- Embrace failures
+
+
+## Critically Interacting with Models
+Speakers:
+- Mathias Verraes
+- Rebecca Wirfs-Brock
+
+Take three business models:
+
+1. Hierarchical
+```
+	  __|__
+  _|_   _|_
+ | | | | | |
+```
+
+2. Social Network
+```
+  (1)---(2)-(3)---(4)
+  /       \ /
+(5)       (6)---(7)
+```
+
+3. Value creation
+```
+ [Work] => €€€
+```
+
+All three have different belief systems and are potentially imcompatible.
+- Hierarchical believes that top down is the ideal structure for how decisions are made
+- Social networks believe that talking fluidly and empowering individuals leads to better systems
+- Value creation believes that value creation is king and everthing else is in service
+
+All models have belief systems. When incorporating different models watch for inconsistencies and address them.
+
+The status quo is that adopted models are assimilated without much thought
+Examples: Agile, Scrum, Safe, Lean, etc...
+
+Models mess with you, we start thinking of the models as reality and not, well, a model that's missing details
+
+There's no such thing as a pure model, no such thing as a pure abstraction.
+
+Heuristics:
+- Compare models to figure out what each adds or omits, emphasises or downplays
+- Does it address or solve problems you are interested in
+
+Switching between org models comes with risks
+Beware of reorganisation fatigue!
+
+Avoid Model Fitting: 
+- Trying to generalise two models is often a bad idea
+- It always feels possible, but you often lose key details that makes the models unique
+	- I.e. you strip the models of the very things that make them useful
+
+If you care about something have a building block for it
+
+Steps for working critically with models:
+1. Scrutinize multiple models
+2. Adapt the model to your context
+	- Requires a redesign, not just a nudge
+3. Gather feedback and reshape
+
+
+## Fractal Geometry of Software Design
+- Vladik Khononov
+- https://speakerdeck.com/vladikk/fractal-geometry-of-software-design
+
+Energy supply systems are the foundation for all growing systems, be they organic or artificial
+
+These are systems sustained through energy supplying a hierarchical network
+E.g.
+- Bodies
+- Cities
+- Companies
+- Trees
+
+There is a direct correlation between size and energy consistent across systems
+
+Energy is abstract and depends on the context.
+
+Knowledge is the energy supply of software design.
+
+Four types of knowledge coupling:
+- Implementation: Not intended for inter component intergration
+- Functional: Business logic, use-cases
+- Model: Data structures, core components of functional
+- Contract: APIs
+
+In energy systems growth is not linear, systems usually get more efficient as they grow
+
+This is called sub-linear growth 
+E.g.
+- Metabolic rate by mass
+	- Energy requirement grows slower than size
+
+Systems also have super linear grwoth, were growth takes more energy each time
+
+Very few systems have linear growth between size and energy, most are sub linear or super linear
+
+Growth increases the efficiency of all systems, whether they're beneficial or not
+
+In software this manifests as:
+- Components (modules) grow sub linearly
+- Connections between components grow super linearly (complexity)
+
+NB: Cognitive load limit is static, no growth
+
+Once knowledge complexity surpases cognitive load we can no longer understnad the system and change risk increases super linearly
+
+Most energy systems follow fractcal topolology networks
+I.e. there is self similarity between the different levels of the system
+
+Also called the "Self similarity principle"
+
+Key examples:
+- City roads
+- Tree
+- Vascular system
+
+Strenth (S) is the amount of shared knowledge
+Cost of change is proportional to the Distance (D) between components
+
+Low Distance x Low Stength = Low complexity
+High Distance x Low Stength = Loose coupling
+Low Distance x High Stength = High cohesion
+High Distance x High Stength = Global complexity
+
+The last one is obviously bad and massively increases cognitive load, that's why we avoid it
+
+Expressed as an equations: M = S^D
+
+High strength should have low distance
+- aggregate or module
+- High cohesion
+
+Low strength should have high distance
+- System to system
+	- Bounded content to bounded context
+- Low coupling
+
+
+## How Complex Software Impacts Cognitive Load
+- Corstian Boerman
+
+Cognitive ability:
+- Senses
+- Thoughts
+- Experiences
+
+Mental wellbeing is the no.1 priority ✙
+
+For a system to function it must accomodate the weakess link in the chain
+O-O-O-O-O-o-O
+
+Rights cannot exist without responsibility
+
+Surplus of cognitive capacity improves resiliance
+
+A system running at maximum efficiancy cannot handle change, it will implode
+
+Expections > Abilities = Burnout
+- Overtime this will decrease cognitive ability
+	- Positive feedback loop can occur further destroying it
+
+Cognitive depletion is an occupational hazard
+
+How to handle it:
+- Recude code complexity
+- Recude cognitive load
+
+
+## Closing keynote
+- Indu Alagarsamy
+- Olivia Cheng
+
+When system complexity bleeds over we lose site of the user, get stuck focussing in the details
+
+We need to center the uner in everything we build, it exists to serve their needs, no matter how far away
+
+If it's not solving a problem for the user then it's not worth it.
+
+We don't build resiliant system for fun, we do it to enable customer success.
+
+---
+
+I also spoke at DDD EU this year on Using Test Pain as a Design Guide. I don't have notes for that talk, since that would just be the script I wrote for it. :D
+
+Here are the slides though incase you're interested, it got some very positive feedback: https://slides.com/barryosull/using-test-pain-as-a-design-guide-c930e9
