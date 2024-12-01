@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ERROR | E_PARSE);
+
 $assetDir = __DIR__ . "/../public";
 $builtHtmlDir = __DIR__ . "/../public_html";
 copyAssets($assetDir, $builtHtmlDir);
