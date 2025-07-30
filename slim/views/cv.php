@@ -35,7 +35,7 @@ body {
     background: linear-gradient(120deg, rgba(38,63,113,1) 15%, rgba(27,97,161,1) 100%);
     color: #fff;
     margin: -1cm -1.5cm 0 -1.5cm;
-    padding: 1cm 1.5cm 0.2cm 1.5cm;
+    padding: 0.8cm 1.5cm 0.1cm 1.5cm;
     border-bottom-right-radius: 20px;
 }
 
@@ -167,19 +167,19 @@ p {
                         LinkedIn: <a target="_blank" href="https://ie.linkedin.com/in/barryosu/">https://ie.linkedin.com/in/barryosu/</a>
                     </div>
                     <div class="contact">
-                        Email: barry@tercet.io<br/>
+                        Email: bosulli85@gmail.com<br/>
                         Phone: 086 8045104<br/>
-                        Twitter: <a target="_blank" href="https://twitter.com/barryosull">@barryosull</a>
+                        Bluesky: <a target="_blank" href="https://bsky.app/profile/barryosull.bsky.social">@barryosull</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="highlights">Software Engineer - Architect - DDD Specialist - Conference Speaker - PHP Dublin Organiser</div>
+        <div class="highlights">Software Engineer &bull; Architect &bull; DDD Specialist &bull; Conference Speaker &bull; Event Organiser</div>
     </div>
     <div class="body">
         <div class="section">
             <h2>About me</h2>
-            <p>Software developer experienced in high traffic web applications. Architected and implemented multiple products for both startups and established companies. Extensive experience working in existing/legacy codebases and improving quality. Passionate about building software effectively. For the last three years my focus has been legacy PHP, improving my ability to refactor and bring quality to existing systems, now I'm ready to take those skills and apply them in bigger ways.
+            <p>Staff engineer experienced in high traffic financial systems <b>(371m sales py, $10.6b in sales)</b>. Architected &amp; implemented multiple products for companies of all sizes. Extensive experience working in existing/legacy codebases &amp; elegantly evolving systems. Passionate about working with &amp; growing team members, as I believe that we can go further together.
             </p>
         </div>
         <div class="section">
@@ -188,10 +188,11 @@ p {
                 <div>
                     <h3>Development</h3>
                     <ul>
-                        <li>PHP (15yr)</li>
-                        <li>MySQL (15yr)</li>
-                        <li>HTML/CSS (15yr)</li>
-                        <li>Javascript (12yr)</li>
+                        <li>PHP (19yr)</li>
+                        <li>JAVA (10yr)</li>
+                        <li>SQL (19yr)</li>
+                        <li>HTML/CSS (19yr)</li>
+                        <li>JS (16yr)</li>
                     </ul>
                 </div>
                 <div>
@@ -207,21 +208,21 @@ p {
                 <div>
                     <h3>Architecture/Design</h3>
                     <ul>
-                        <li>Legacy refactoring</li>
-                        <li>Service extraction</li>
+                        <li>Evolutionary design</li>
+                        <li>Event Driven</li>
                         <li>Event Sourcing</li>
                         <li>TDD</li>
                         <li>DDD</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Frameworks</h3>
+                    <h3>Platforms/Frameworks</h3>
                     <ul>
+                        <li>GCP</li>
+                        <li>AWS</li>
                         <li>Laravel</li>
-                        <li>CodeIgniter</li>
-                        <li>Zend</li>
-                        <li>Slim</li>
-                        <li>Express</li>
+                        <li>Spring</li>
+                        <li>React</li>
                     </ul>
                 </div>
                 <div>
@@ -230,7 +231,7 @@ p {
                         <li>Problem solver</li>
                         <li>Fast learner</li>
                         <li>Goal orientated</li>
-                        <li>Documentation</li>
+                        <li>Clear communicator</li>
                         <li>Metric driven</li>
                     </ul>
                 </div>
@@ -239,33 +240,41 @@ p {
         <div class="section projects">
             <h2>Projects</h2>
 
-            <h3>Adverts.ie (https://adverts.ie):</h3>
+            <h3>Payments Compliance &amp; Tax (Etsy):</h3>
+            <ul>
+                <li>PCI 4.0 compliance: Designed &amp; implemented a modular, self contained CC entry system, ensuring 2025 certification</li>
+                <li>Inform act: Reimplemented our identity system with product to gather required data for <b>5m US shops</b></li>
+                <li>Evolve Tax integration: Integrated with Vertex, ensuring orders are taxed appropriately in real-time <b>(950m requests py)</b></li>
+            </ul>
+
+            <h3>Payments &amp; cross platform upsells (Adverts.ie):</h3>
             <ul>
                 <li>SCA compliance: Replaced entire payment system iteratively with zero downtime</li>
                 <li>Cross-sell: Designed & implemented cross share to DoneDeal feature. Async message based, robust &amp; highly profitable</li>
                 <li>Upsells: Introduced “Orders” iteratively to web &amp; mobile apps so multiple products/upsells could be purchased at once</li>
             </ul>
 
-            <h3>Journal.ie (https://thejournal.ie):</h3>
+            <h3>High traffic systems (Journal.ie):</h3>
             <ul>
-                <li>View tracking: Rewrote and fixed high traffic view tracking micro-service with zero downtime</li>
-                <li>Responsive migration: Planned and implemented iterative migration of legacy (12yr+) codebase to responsive layouts</li>
-                <li>Design training: Trained dev team in clean architecture, testing and legacy refactoring</li>
+                <li>View tracking: Rewrote &amp; fixed high traffic view tracking micro-service with zero downtime</li>
+                <li>Responsive migration: Planned &amp; implemented iterative migration of legacy (12yr+) codebase to responsive layouts</li>
+                <li style="display: none;"> Training: Upskilled dev team in clean architecture, testing &amp; legacy refactoring</li>
             </ul>
         </div>
         <div class="section employment">
             <h2>Employment</h2>
-            <h3>PHP Consultant, Architect & Contractor (2018 - now)</h3>
+            
+            <h3>Etsy: Staff Software Engineer on the Payments Compliance &amp; Tax Team (2021 - 2025)</h3>
             <p>
-                Independent contractor. Worked for theJournal.ie, Adverts.ie and Daft.ie. Specialised in legacy web apps, reverse mapping product behaviour and adding new functionality in an iterative, testable and stable manner. Worked with dev managers to upskill their team in design, refactoring and architecture skills.
+                Staff engineer &amp; team lead. Responsible for designing, building &amp evolving all tax &amp; payments compliance systems, working with product/leadership to map deliverables &amp; timelines, with little to no downtime.
             </p>
-            <h3>Dynamic Reservations: Lead Developer/Architect (2016 - 2018)</h3>
+            <h3>PHP Consultant, Architect & Contractor (2018 - 2021)</h3>
             <p>
-                Architected and implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing and domain exploration, ensuring we had the skills to execute and build a scalable SPA.
+                Independent consultant. Worked for theJournal.ie, Adverts.ie &amp; Daft.ie. Specialised in legacy web apps, reverse mapping product behaviour &amp; adding new functionality in an iterative, testable &amp; stable manner. Worked with dev managers to upskill their team in design, refactoring &amp; architecture skills.
             </p>
-            <h3>Olive Media: Software Development Manager (2014 - 2016)</h3>
+            <h3>Dynamic Reservations: Lead Engineer/Architect (2016 - 2018)</h3>
             <p>
-                Managed the development of a new recruiting application for HiUp. Implemented an event-sourced, domain aligned product, with a microservice based architecture. Looked after all aspects of development, including Android and FE Javascript.
+                Architected &amp; implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing &amp; domain exploration, ensuring we had the skills to execute &amp; build a scalable SPA.
             </p>
         </div>
         <div class="section">
