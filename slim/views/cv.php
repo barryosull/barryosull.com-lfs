@@ -93,7 +93,7 @@ h2 {
 
 .highlights {
     text-align: left;
-    margin: 0.5cm 0.25cm 0.25cm;
+    margin: 0.5cm 0cm 0.25cm;
     font-weight: bold;
     font-size: 14px;
 }
@@ -131,6 +131,11 @@ h2 {
     margin-bottom: 0.1cm;
 }
 
+.employment ul {
+    margin-top: 0.1cm;
+    padding-left: 0.6cm;
+}
+
 .education {
     display: flex;
     justify-content: space-between;
@@ -158,7 +163,7 @@ p {
                     </div>
                     <div class="contact">
                         Email: bosulli85@gmail.com<br/>
-                        Phone: 086 8045104<br/>
+                        Phone: +353 86 8045104<br/>
                         Bluesky: <a target="_blank" href="https://bsky.app/profile/barryosull.bsky.social">@barryosull</a>
                     </div>
                 </div>
@@ -169,7 +174,7 @@ p {
     <div class="body">
         <div class="section">
             <h2>About me</h2>
-            <p>Staff engineer experienced in high traffic financial systems <b>(371m sales py, $10.6b in sales)</b>. Architected &amp; implemented multiple products for companies of all sizes. Extensive experience working in existing/legacy codebases &amp; elegantly evolving systems. Passionate about working with &amp; growing team members, as I believe that we can go further together.
+            <p>Staff engineer experienced in high traffic financial systems <b>(371M sales PY, &dollar;2.8B in revenue)</b>. Architected &amp; implemented multiple products for companies of all sizes. Extensive experience working in existing/legacy codebases &amp; elegantly evolving those systems to meet new business needs. Passionate about working with &amp; growing team members, as I believe that we can go further together.
             </p>
         </div>
         <div class="section">
@@ -186,7 +191,7 @@ p {
                     </ul>
                 </div>
                 <div>
-                    <h3>Processes</h3>
+                    <h3>Dev Practices</h3>
                     <ul>
                         <li>CI/CD</li>
                         <li>Agile development</li>
@@ -227,44 +232,35 @@ p {
                 </div>
             </div>
         </div>
-        <div class="section projects">
-            <h2>Projects</h2>
-
-            <h3>Payments Compliance &amp; Tax (Etsy Payments):</h3>
-            <ul>
-                <li>PCI 4.0 compliance: Designed &amp; implemented a modular, self contained CC entry system, ensuring 2025 certification</li>
-                <li>Inform act: Reimplemented our identity system with product to gather required data for <b>5m US shops</b></li>
-                <li>Evolve Tax integration: Integrated with Vertex, ensuring orders are taxed appropriately in real-time <b>(950m requests py)</b></li>
-            </ul>
-
-            <h3>Payments &amp; cross platform upsells (Adverts.ie):</h3>
-            <ul>
-                <li>SCA compliance: Replaced entire payment system iteratively with zero downtime</li>
-                <li>Cross-sell: Designed & implemented cross share to DoneDeal feature. Async message based, robust &amp; highly profitable</li>
-                <li>Upsells: Introduced “Orders” iteratively to web &amp; mobile apps so multiple products/upsells could be purchased at once</li>
-            </ul>
-
-            <h3>High traffic systems (Journal.ie):</h3>
-            <ul>
-                <li>View tracking: Rewrote &amp; fixed high traffic view tracking micro-service with zero downtime</li>
-                <li>Responsive migration: Planned &amp; implemented iterative migration of legacy (12yr+) codebase to responsive layouts</li>
-                <li style="display: none;"> Training: Upskilled dev team in clean architecture, testing &amp; legacy refactoring</li>
-            </ul>
-        </div>
         <div class="section employment">
             <h2>Employment</h2>
             
             <h3>Etsy Payments: Staff Software Engineer on the Payments Compliance &amp; Tax Team (2021 - 2025)</h3>
             <p>
-                Staff engineer &amp; team lead for 9 engineers. Responsible for designing, building &amp evolving all tax &amp; payments compliance systems, working with product/leadership to map deliverables &amp; timelines, with little to no downtime.
+                Staff engineer &amp; team lead for 9 engineers. Responsible for designing, building, maintaining &amp evolving all tax &amp; payments compliance systems at Etsy. Worked with product/leadership to map deliverables &amp; timelines, with little to no downtime.
             </p>
+            <ul>
+                <li>PCI 4.0 Compliance: Planned &amp; implemented a modular, self contained, React powered, credit card entry system via a micro-service, minimising compliance overhead &amp; ensuring 2025. certification and <b>&dollar;2.8B in revenue</b></li>
+                <li>1099k Compliance: Ensured <b>5.1M US sellers</b> have verified SSN/EINs to meet new legislation under tight time constraints, required full map of legacy systems and extensive refactoring. Automated all generation of 1099ks.
+                <li>Bank Account Verification: Integrated with Plaid and <b>reverfified 1.8M bank accounts</b> in 6 months. Extensive system mapping, UI changes, refactoring, customer communication, real-time tracking/monitoring, leading to no loss in revenue.
+                <li>Inform Act: Reimplemented our identity system with product to gather required data for <b>5M US sellers</b>, analsyed disparate data sources and discovered/fixed numerous security holes and compliance oversights</li>
+                <li>Tax Calculation: Integrated with Vertex, sending nuanced contextual information (ask me about Canada), ensuring orders are taxed appropriately in real-time for countires worldwide, with <b>950M requests PY.</b></li>
+            </ul>
+
             <h3>PHP Consultant, Architect & Contractor (2018 - 2021)</h3>
             <p>
-                Independent consultant. Worked for theJournal.ie, Adverts.ie &amp; Daft.ie. Specialised in legacy web apps, reverse mapping product behaviour &amp; adding new functionality in an iterative, testable &amp; stable manner. Worked with dev managers to upskill their team in design, refactoring &amp; architecture skills.
+                Independent consultant. Worked for theJournal.ie, Adverts.ie &amp; Daft.ie, all highly regarded &amp; high traffic Irish websites. Specialised in legacy web apps, reverse mapping product behaviour &amp; adding new functionality in an iterative, testable &amp; stable manner. Worked with dev managers to upskill their team in design, refactoring &amp; architecture skills.
             </p>
+            <ul>
+                <li>SCA Compliance: Replaced entire payment system with Stripe 2FA iteratively with zero downtime.</li>
+                <li>Cross-selling: Designed & implemented cross share between products. Async message based, robust &amp; highly profitable.</li>
+                <li>Upsells: Introduced “Orders” iteratively to web &amp; mobile apps so multiple products/upsells could be purchased at once.</li>
+                <li>Responsive Migration: Planned &amp; implemented iterative migration of legacy (12yr+) codebase to responsive layouts.</li>
+                <li style="display: none;"> Training: Upskilled dev team in clean architecture, testing &amp; legacy refactoring.</li>
+            </ul>
             <h3>Dynamic Reservations: Lead Engineer/Architect (2016 - 2018)</h3>
             <p>
-                Architected &amp; implemented an event sourced product in the travel agency space. Upskilled the team in event sourcing &amp; domain exploration, ensuring we had the skills to execute &amp; build a scalable SPA.
+                Architected &amp; implemented an event sourced product, leading 5 engineers, in the travel agency space. Upskilled the team in event sourcing &amp; domain exploration, ensuring we had the skills to execute &amp; build a scalable SPA.
             </p>
         </div>
         <div class="section">
