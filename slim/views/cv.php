@@ -174,7 +174,7 @@ p {
                 </div>
             </div>
         </div>
-        <div class="highlights">Software Engineer &bull; Architect &bull; DDD Specialist &bull; Conference Speaker &bull; Event Organiser</div>
+        <div class="highlights">Software Engineer &bull; Team Lead &bull; Architect &bull; DDD Specialist &bull; Conference Speaker &bull; Event Organiser</div>
     </div>
     <div class="body">
         <div class="section">
@@ -200,9 +200,9 @@ p {
                     <ul>
                         <li>CI/CD</li>
                         <li>Agile development</li>
-                        <li>Kanban</li>
-                        <li>Scrum</li>
+                        <li>Scrum/Kanban</li>
                         <li>Event Storming</li>
+                        <li>Feature flags</li>
                     </ul>
                 </div>
                 <div>
@@ -240,7 +240,7 @@ p {
         <div class="section projects">
             <h2>Projects</h2>
 
-            <h3>Payments Compliance &amp; Tax (Etsy):</h3>
+            <h3>Payments Compliance &amp; Tax (Etsy Payments):</h3>
             <ul>
                 <li>PCI 4.0 compliance: Designed &amp; implemented a modular, self contained CC entry system, ensuring 2025 certification</li>
                 <li>Inform act: Reimplemented our identity system with product to gather required data for <b>5m US shops</b></li>
@@ -264,9 +264,9 @@ p {
         <div class="section employment">
             <h2>Employment</h2>
             
-            <h3>Etsy: Staff Software Engineer on the Payments Compliance &amp; Tax Team (2021 - 2025)</h3>
+            <h3>Etsy Payments: Staff Software Engineer on the Payments Compliance &amp; Tax Team (2021 - 2025)</h3>
             <p>
-                Staff engineer &amp; team lead. Responsible for designing, building &amp evolving all tax &amp; payments compliance systems, working with product/leadership to map deliverables &amp; timelines, with little to no downtime.
+                Staff engineer &amp; team lead for 9 engineers. Responsible for designing, building &amp evolving all tax &amp; payments compliance systems, working with product/leadership to map deliverables &amp; timelines, with little to no downtime.
             </p>
             <h3>PHP Consultant, Architect & Contractor (2018 - 2021)</h3>
             <p>
