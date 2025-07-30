@@ -174,7 +174,7 @@ p {
     <div class="body">
         <div class="section">
             <h2>About me</h2>
-            <p>Staff engineer experienced in high traffic financial systems <b>(371M sales PY, &dollar;2.8B in revenue)</b>. Architected &amp; implemented multiple products for companies of all sizes. Extensive experience working in existing/legacy codebases &amp; elegantly evolving those systems to meet new business needs. Passionate about working with &amp; growing team members, as I believe that we can go further together.
+            <p>Staff engineer experienced in high traffic financial systems <b>(371M sales PY, &dollar;2.8B in revenue)</b>. Architected &amp; implemented multiple products for companies of all sizes. Works in existing/legacy codebases &amp; elegantly evolving those systems to meet new business needs. I'm empowered by working with &amp; growing team members, as I believe that we can go further together.
             </p>
         </div>
         <div class="section">
@@ -221,13 +221,13 @@ p {
                     </ul>
                 </div>
                 <div>
-                    <h3>Core skills</h3>
+                    <h3>Core Competencies</h3>
                     <ul>
-                        <li>Problem solver</li>
-                        <li>Fast learner</li>
                         <li>Goal orientated</li>
-                        <li>Clear communicator</li>
                         <li>Metric driven</li>
+                        <li>Clear communicator</li>
+                        <li>Mentoring</li>
+                        <li>Pragmatic design</li>
                     </ul>
                 </div>
             </div>
@@ -240,27 +240,27 @@ p {
                 Staff engineer &amp; team lead for 9 engineers. Responsible for designing, building, maintaining &amp evolving all tax &amp; payments compliance systems at Etsy. Worked with product/leadership to map deliverables &amp; timelines, with little to no downtime.
             </p>
             <ul>
-                <li>PCI 4.0 Compliance: Planned &amp; implemented a modular, self contained, React powered, credit card entry system via a micro-service, minimising compliance overhead &amp; ensuring 2025. certification and <b>&dollar;2.8B in revenue</b></li>
+                <li>PCI 4.0 Compliance: Planned &amp; executed a modular, self contained, React powered, credit card entry system via a micro-service, minimising compliance overhead &amp; ensuring 2025. certification and <b>&dollar;2.8B in revenue</b></li>
                 <li>1099k Compliance: Ensured <b>5.1M US sellers</b> have verified SSN/EINs to meet new legislation under tight time constraints, required full map of legacy systems and extensive refactoring. Automated all generation of 1099ks.
-                <li>Bank Account Verification: Integrated with Plaid and <b>reverfified 1.8M bank accounts</b> in 6 months. Extensive system mapping, UI changes, refactoring, customer communication, real-time tracking/monitoring, leading to no loss in revenue.
+                <li>Bank Account Verification: Integrated with Plaid and <b>reverfified 1.8M bank accounts</b> in 6 months. In-depth system mapping, UI changes, refactoring, customer communication, real-time tracking/monitoring, leading to no loss in revenue.
                 <li>Inform Act: Reimplemented our identity system with product to gather required data for <b>5M US sellers</b>, analsyed disparate data sources and discovered/fixed numerous security holes and compliance oversights</li>
                 <li>Tax Calculation: Integrated with Vertex, sending nuanced contextual information (ask me about Canada), ensuring orders are taxed appropriately in real-time for countires worldwide, with <b>950M requests PY.</b></li>
             </ul>
 
             <h3>PHP Consultant, Architect & Contractor (2018 - 2021)</h3>
             <p>
-                Independent consultant. Worked for theJournal.ie, Adverts.ie &amp; Daft.ie, all highly regarded &amp; high traffic Irish websites. Specialised in legacy web apps, reverse mapping product behaviour &amp; adding new functionality in an iterative, testable &amp; stable manner. Worked with dev managers to upskill their team in design, refactoring &amp; architecture skills.
+                Independent consultant for theJournal.ie, Adverts.ie &amp; Daft.ie, all highly regarded &amp; high traffic Irish websites. Specialised in legacy web apps, reverse mapping product behaviour &amp; adding new functionality in an iterative, testable &amp; stable manner. Liased with dev managers to upskill their team in design, refactoring &amp; architecture skills.
             </p>
             <ul>
                 <li>SCA Compliance: Replaced entire payment system with Stripe 2FA iteratively with zero downtime.</li>
-                <li>Cross-selling: Designed & implemented cross share between products. Async message based, robust &amp; highly profitable.</li>
+                <li>Cross-selling: Designed & executed a highly profitable, async message backed, cross share system between products</li>
                 <li>Upsells: Introduced “Orders” iteratively to web &amp; mobile apps so multiple products/upsells could be purchased at once.</li>
                 <li>Responsive Migration: Planned &amp; implemented iterative migration of legacy (12yr+) codebase to responsive layouts.</li>
                 <li style="display: none;"> Training: Upskilled dev team in clean architecture, testing &amp; legacy refactoring.</li>
             </ul>
             <h3>Dynamic Reservations: Lead Engineer/Architect (2016 - 2018)</h3>
             <p>
-                Architected &amp; implemented an event sourced product, leading 5 engineers, in the travel agency space. Upskilled the team in event sourcing &amp; domain exploration, ensuring we had the skills to execute &amp; build a scalable SPA.
+                Architected an event sourced product, leading 5 engineers, in the travel agency space. Upskilled the team in event sourcing &amp; domain exploration, ensuring we had the skills to execute &amp; build a scalable SPA.
             </p>
         </div>
         <div class="section">
@@ -275,10 +275,6 @@ p {
                     BA(mod) Computer Science
                 </div>
             </div>
-            <p>
-                <br/>
-                References are available on request
-            </p>
         </div>
     </div>
 </div>
