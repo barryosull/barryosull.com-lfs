@@ -52,15 +52,6 @@ h2 {
     border-bottom: 1px solid #263f71;
 }
 
-#headshot {
-    height: 3cm;
-    margin-right: 0.7cm;
-    flex: 0 0 3cm;
-    border-radius: 30px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
 .details {
     flex-grow: 4;
 }
@@ -101,7 +92,7 @@ h2 {
 }
 
 .highlights {
-    text-align: center;
+    text-align: left;
     margin: 0.5cm 0.25cm 0.25cm;
     font-weight: bold;
     font-size: 14px;
@@ -156,7 +147,6 @@ p {
 <div class="page">
     <div class="header">
         <div class="two-col">
-            <img alt="Headshot" src="/images/me.jpg" id="headshot">
             <div class="details">
                 <h1>Barry O’Sullivan</h1>
                 <h2>86 Meadowgate, Gorey, Co. Wexford</h2>
