@@ -235,7 +235,7 @@ p {
         <div class="section employment">
             <h2>Employment</h2>
             
-            <h3>Etsy Payments: Staff Software Engineer on the Payments Compliance &amp; Tax Team (2021 - 2025)</h3>
+            <h3>Etsy Payments: Staff Software Engineer on the Payments Compliance &amp; Tax Team (Jun 2021 - Jun 2025)</h3>
             <p>
                 Staff engineer &amp; team lead for 9 engineers. Responsible for designing, building, maintaining &amp evolving all tax &amp; payments compliance systems at Etsy. Worked with product/leadership to map deliverables &amp; timelines, with little to no downtime.
             </p>
@@ -247,7 +247,7 @@ p {
                 <li>Tax Calculation: Integrated with Vertex, sending nuanced contextual information (ask me about Canada), ensuring orders are taxed appropriately in real-time for countires worldwide, with <b>950M requests PY.</b></li>
             </ul>
 
-            <h3>PHP Consultant, Architect & Contractor (2018 - 2021)</h3>
+            <h3>PHP Consultant, Architect & Contractor (Mar 2018 - Jun 2021)</h3>
             <p>
                 Independent consultant for theJournal.ie, Adverts.ie &amp; Daft.ie, all highly regarded &amp; high traffic Irish websites. Specialised in legacy web apps, reverse mapping product behaviour &amp; adding new functionality in an iterative, testable &amp; stable manner. Liased with dev managers to upskill their team in design, refactoring &amp; architecture skills.
             </p>
@@ -258,7 +258,7 @@ p {
                 <li>Responsive Migration: Planned &amp; implemented iterative migration of legacy (12yr+) codebase to responsive layouts.</li>
                 <li style="display: none;"> Training: Upskilled dev team in clean architecture, testing &amp; legacy refactoring.</li>
             </ul>
-            <h3>Dynamic Reservations: Lead Engineer/Architect (2016 - 2018)</h3>
+            <h3>Dynamic Reservations: Lead Engineer/Architect (Apr 2016 - Mar 2018)</h3>
             <p>
                 Architected an event sourced product, leading 5 engineers, in the travel agency space. Upskilled the team in event sourcing &amp; domain exploration, ensuring we had the skills to execute &amp; build a scalable SPA.
             </p>
