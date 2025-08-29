@@ -12,7 +12,7 @@ A core part of staff engineer's role is to grow the team. A staff engineer who d
 
 Well, if you want to help someone improve, the first step is to figure out their level. There is no one-size-fits-all all progression strategy, and anything you do must factor in their levels and skills. Figuring this out can be tricky, given that skills in software development can seem ephemeral and vague. This is where a model comes in handy, and this is why I use the Dreyfus skill model to figure out where they are and how to get them to the next stage.
 
-## Dreyfus skill model
+# Dreyfus skill model
 The [Drefus skill model]((https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)) is a way to categorise where someone is in their journey from beginner to expert in a given skill. It has 5 stages (with a 6th for special people), those stages are:
 1. Beginner: Just starting and only learning the fundamentals
 2. Advanced beginner: Can solve simple problems, understands rules and where to apply them
@@ -38,7 +38,7 @@ This makes sense. To learn something you must be conscious of it, but as time go
 
 What makes these models especially effective is how they factor in the way our brain acquires skills over time.
 
-## How we learn
+# How we learn
 
 The brain works through reinforcement learning. Deliberate actions lead to outcomes, which our logical or emotional systems reinforce as good or bad. After a while our brain spots patterns and we gain unconscious processes that quickly evaluate our options and present an answer to the conscious mind. This can manifest as a sudden thought or even an emotional response (e.g. "This function feels iffy"). Lower layers are concrete while higher layers are more abstract. As time goes on these processes will begin to layer, meaning that we're able to work at higher layers of abstraction over time. 
 
@@ -52,14 +52,14 @@ The same is true for coding. At the beginning you have to consciously think abou
 
 From this it's clear that lower layers enable higher layers, but there's also another aspect: time frames expand as you grow.
 
-## Skill acquisition time-frames
+# Skill acquisition time-frames
 The time frames for gaining a skill grow as the skill gets more abstract and the feedback loops become longer. 
 
 The feedback loop for syntax is relatively short: you write code, run it (or your IDE highlights the issue) and rapidly encounter errors before immediately addressing them (or you get stuck and get frustrated before asking for help). The distance between action and result is short. You soon gain an intuitive sense of what syntax to use and won't need to consciously think about it; your brain will just do it for you. 
 
 Conversely, the feedback loop for projects and systems is much larger. At the beginning you won't see the problems with your design until later in the project or after it's been running in production for a while and you're finding it difficult to maintain or change. This is why retrospectives and reflection are so important. They let us review what we've done, figure out what worked and what didn't, and give our brain the feedback it needs (both informational and emotional) to build these intuitive units.
 
-## The big picture
+# The big picture
 We often hear that everyone should understand the big picture (as critiqued in [a solid article](https://skorks.com/2009/08/building-software-development-expertise-using-the-dreyfus-model/) on the Dreyfus model in software development), but that assumes that understanding the "big picture" will guide people towards optimal decisions at their level. The Dreyfus model states that this isn't the case, as the "big picture", i.e. the next useful abstraction level, is skill dependent. 
 
 Let's take beginners, they can't follow abstract big picture concepts like "clean code", "SOLID principles" or "increased revenue", because they don't have a mental framework to process these concepts. They don't have the information or knowledge to bridge the gap, there are just too many unknowns and missing skills. Their big picture must be much smaller and closer to their level in order to be effective. That's why I'll discuss the appropriate **big picture** for each stage.
@@ -70,7 +70,7 @@ So given all that, how:
 - Can we factor this in when enabling these developers?
 - Do we optimise the feedback loops for progression?
 
-## Stages:
+# Stages:
 Before we dive in, I would like to state that I'm going to model each stage for a generic software developer. The diversity of skills across software development is large, but there are commonalities. You will probably have your own competencies and skills that are important to your org that aren't mentioned here, but they can easily be fitted in. First, figure out where that skill is on the spectrum, then ask yourself if they have the foundational skills required for that skill, starting at the bottom and working your way up.
 
 Now, onto the stages.
@@ -173,7 +173,7 @@ Both of these are big shifts and ones that are only possible when a master think
 ## Group learning
 Up until now I've only discussed how this model works one-to-one, but what about in a group? This one is tricky; you'll never have a session where everyone learns the same thing or gets the same benefit, as we're all at different levels of abstraction, but an optimal balance is possible. First off, you need to figure out the base level. If the goal is to upskill a group at that level, then you need to factor in the appropriate big picture. This does mean that higher level devs won't learn as much, but there is an opportunity here. Higher-level devs can become facilitators, helping those at lower levels to progress, letting the higher-level devs practice the skill of communication and mentoring while the lower-level devs explore the idea in a way that's practical and actionable. (There's so much more to potentially write here, but I gotta stop somewhere, hit me up online or in the comments if you'd like to discuss this more)
 
-## Conclusion
+# Conclusion
 
 So that was a lot, though now I hope you can see the value of the framework. It's not perfect; people don't reach these levels uniformly, but as a way of thinking through where a dev is at and how to move them forward, it is invaluable. 
 
