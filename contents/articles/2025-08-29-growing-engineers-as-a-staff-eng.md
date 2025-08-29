@@ -23,11 +23,11 @@ The [Drefus skill acquisition model]((https://en.wikipedia.org/wiki/Dreyfus_mode
 
 This model is actually a spectrum, with people moving from one side to another rather than in discrete jumps from stage to stage. On the left-most, they are consciously thinking through every step they make, on the right-most most they are making intuitive decisions and seem to skip steps yet end up at the right, or optimal, answer. It is also only a model and is not reality, but it is considered incredibly effective in many educational fields, so, ya know, it's been vetted. Good enough for me!
 
-![Conscious to intuitive](/images/skill-acqusition.png)
+<img src="/images/skill-acqusition.png" width="700px" style="text-align: center"/>
 
 This model also aligns with the [Four Stages of Competence](https://en.wikipedia.org/wiki/Four_stages_of_competence) model. In this model we progress through four stages when gaining skills. We start unaware of our incompetence and finish at competent without conscious effort, becoming intuitive in the problem space.
 
-![Four stages of Competence](/images/four-stages-of-competence.png)
+<img src="/images/four-stages-of-competence.png" width="500px" style="text-align: center"/>
 
 People in the final stage are able to make large intuitive leaps, often seemingly skipping steps while reaching an optimal conclusion.
 
@@ -42,7 +42,7 @@ What makes these models especially effective is how they factor in the way our b
 
 The brain works through reinforcement learning. Deliberate actions lead to outcomes, which our logical or emotional systems reinforce as good or bad. After a while our brain spots patterns and we gain unconscious processes that quickly evaluate our options and present an answer to the conscious mind. This can manifest as a sudden thought or even an emotional response (e.g. "This function feels iffy"). Lower layers are concrete while higher layers are more abstract. As time goes on these processes will begin to layer, meaning that we're able to work at higher layers of abstraction over time. 
 
-![How we learn](/images/how-we-learn.png)
+<img src="/images/how-we-learn.png" width="500px" style="text-align: center"/>
 
 A key point here, practice is everything. You can't learn how to write software by reading a book. Sure, it will give you ideas, but ideas without practice are disconnected from actual experience and thus have no connection to lived reality. (I'm not saying don't read, dear god don't think that, reading is super important! Just be sure to practice as well.)
 
