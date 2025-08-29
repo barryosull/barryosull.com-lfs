@@ -12,8 +12,8 @@ A core part of staff engineer's role is to grow the team. A staff engineer who d
 
 Well, if you want to help someone improve, the first step is to figure out their level. There is no one-size-fits-all all progression strategy, and anything you do must factor in their levels and skills. Figuring this out can be tricky, given that skills in software development can seem ephemeral and vague. This is where a model comes in handy, and this is why I use the Dreyfus skill model to figure out where they are and how to get them to the next stage.
 
-# Dreyfus skill model
-The [Drefus skill model]((https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)) is a way to categorise where someone is in their journey from beginner to expert in a given skill. It has 5 stages (with a 6th for special people), those stages are:
+# Dreyfus skill acquisition model
+The [Drefus skill acquisition model]((https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)) is a way to categorise where someone is in their journey from beginner to expert in a given skill. It has 5 stages (with a 6th for special people), those stages are:
 1. Beginner: Just starting and only learning the fundamentals
 2. Advanced beginner: Can solve simple problems, understands rules and where to apply them
 3. Competent: Can solve most problems, but is rigid and makes mistakes
