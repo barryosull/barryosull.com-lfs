@@ -7,9 +7,27 @@
 <title>
    <?php echo isset($title) ? $title : ' Legacy Web App Specialist' ?>
 </title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
+
+<!-- HTML Meta Tags -->
+<meta name="description" content="<?php echo $description ?? '' ?>" />
+<meta name="keywords" content="<?php echo $keywords ?? '' ?>" />
 <meta name="author" content="Barry O'Sullivan" />
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="<?php echo $url ?? '' ?>">
+<meta property="og:type" content="site">
+<meta property="og:title" content="<?php echo $title ?? '' ?>">
+<meta property="og:description" content="<?php echo $description ?? '' ?>">
+<meta property="og:image" content="<?php echo $image ?? '' ?>">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="<?php echo $url ?? '' ?>">
+<meta name="twitter:title" content="site">
+<meta name="twitter:description" content="<?php echo $url ?? '' ?>">
+<meta name="twitter:image" content="https://barryosull.com/images/icon.svg">
+
+<!-- Style -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"/>
 <link rel="stylesheet" href="https://unpkg.com/prismjs@1.23.0/themes/prism-okaidia.css" />
