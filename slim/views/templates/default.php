@@ -21,11 +21,11 @@
 <meta property="og:image" content="<?php echo $image ?? '' ?>">
 
 <!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="<?php echo $url ?? '' ?>">
-<meta name="twitter:title" content="<?php echo $title ?? '' ?>">
-<meta name="twitter:description" content="<?php echo $description ?? '' ?>">
-<meta name="twitter:image" content="<?php echo $image ?? '' ?>">
+<meta property="twitter:title" content="<?php echo $title ?? '' ?>">
+<meta property="twitter:description" content="<?php echo $description ?? '' ?>">
+<meta property="twitter:image" content="<?php echo $image ?? '' ?>">
 
 <!-- Style -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />

@@ -8,7 +8,7 @@ class Renderer
     public function render(string $view, array $data): string
     {
         $data = array_merge($data, $this->makeMetaData($data));
-        
+
         extract($data);
 
         ob_start();
@@ -50,7 +50,7 @@ class Renderer
         return [
             'description' => $article->excerpt,
             'keywords' => 'Legacy web app development specialist',
-            'url' => $article->url,
+            'url' => getenv('DOMAIN') . $article->url,
             'title' => $article->title,
             'image' => $article->coverImage,
         ];
