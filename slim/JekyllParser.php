@@ -30,7 +30,7 @@ class JekyllParser
         $article->categories = (isset($data['tags']))
             ? $this->getCategoriesFromArticle($data)
             : [];
-        $article->url = getenv('DOMAIN') . "/blog/" . $article->slug;
+        $article->url = (string)getenv('DOMAIN') . "/blog/" . $article->slug;
         $article->description = $data['description'] ?? "";
         $article->coverImage = $this->getCoverImage($data);
         $article->content = $this->getMarkdownContents($sections);
