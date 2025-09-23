@@ -47,7 +47,7 @@ This is why it's better to clean as we go:
 
 So cleanup as you go, future you will thank you for it!
 
-## How are we terrible?
+# How are we terrible?
 I'll get into why we don't refactor, but first I want to explain what I mean by us being terrible at it. When I say most devs can't refactor, I don't mean we can't change code to make it look a little nicer. Most devs can and will change the internals of a method to clean up messy logic, or extract a private method for clarity. This is fine and fairly easy. 
 
 Where we fall down is anything bigger than this. Once we have to make structural changes, e.g. change class boundaries, extract classes, split or merge methods, then we fall down. Most will refuse to do it, instead opting to hammer in changes rather than accept the current design/structure is getting in the way and needs to changes. This isn't because we're lazy, it's because we don't know how. We don't know what shape will make things better and/or we don't know how to get there. This is because we lack the skill.
@@ -99,7 +99,9 @@ While it's easy to discuss tech debt, actually quantifying it and it's impact is
 A common management mantra is "What gets measured gets managed" (which is [erroneously attributed to Mike Drucker](https://web.archive.org/web/20250429013518/https://drucker.institute/thedx/measurement-myopia/)). Since the cost of not refactoring is so hard to measure we often don't even try and ignore it. This is a [management anti-pattern](https://medium.com/centre-for-public-impact/what-gets-measured-gets-managed-its-wrong-and-drucker-never-said-it-fe95886d3df6) and leads to many of the problems we face, but it's not one that's going to change anytime soon given our obsession with easy to measure (and game) metrics.
 
 ## 6. Others will be left with the mess
-As time goes on the debt grows and grows over years until it is unmanageable, but by that stage the original managers, product owners and most devs have probably moved on. We basically move kitchen every couple of weeks, so we'll never see the consequences of letting the mess build, and by that stage a new team will try to fix it and will decide "This is way to messy. Feck this, we should rewrite it!". Repeat this process for 30yrs and you get the banking system, a lumbering behemoth that is slow, impossible to change and being eaten by smaller faster incumbents like Revolut. We see the true cost far too late.
+As time goes on the debt grows and grows over years until it is unmanageable, but by that stage the original managers, product owners and most devs have probably moved on. We basically move kitchen every couple of weeks, so we'll never see the consequences of letting the mess build. This is triply true for project based environments with no ownership model. Why make it better when you're moving on in two months and won't see the benefit? It'll just slow you down after-all.
+
+By this stage a new team will inherit the burning kitchen, try to fix it and will decide "This is way to messy. Feck this, we should rebuild it!". Repeat this process for 30yrs and you get the banking system, a lumbering behemoth that is slow, impossible to change and being eaten by smaller faster incumbents like Revolut. We see the true cost far too late.
 
 # How do we incorporate refactoring into our dev cycles?
 Now we understand why we don't refactor, let's look at what we can do about it, how do we bring refactoring into our day to day and quarter to quarter? 
