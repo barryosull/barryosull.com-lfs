@@ -9,7 +9,7 @@
                         <div style="padding-top: 42%; background-size: cover; background-color:#e3dac6;background-image:url(<?php echo $article->coverImage; ?>)"></div>
                     <?php endif; ?>
 
-                    <h1 class="text-3xl font-bold mt-9 mb-6"><?php echo $article->title; ?></h1>
+                    <h1 class="text-5xl font-bold mt-9 mb-6"><?php echo $article->title; ?></h1>
 
                 </header>
                 <div class="entry-content prose" style="max-width: max-content">
