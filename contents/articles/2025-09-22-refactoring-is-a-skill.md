@@ -6,7 +6,7 @@ tags: software-development, refactoring, management, leadership
 cover_image: /images/refactoring-header.jpg
 ---
 
-Software engineering, as a profession, is terrible at refactoring. We are terrible at refactoring. A hot-take I know, but I think I can convince you. After writing about [skill acquisition and up-skilling](https://barryosull.com/blog/growing-other-developers-as-a-staff-engineer/) I wanted to reflect on refactoring, a skill that is core to software development, many dev assume they have, but few can actually demonstrate.
+Software engineering, as a profession, is terrible at refactoring. A hot-take I know, but I think I can convince you. After writing about [skill acquisition and up-skilling](https://barryosull.com/blog/growing-other-developers-as-a-staff-engineer/) I wanted to reflect on refactoring, a skill that is core to software development, many dev assume they have, but few can actually demonstrate.
 
 # My journey with refactoring
 First a little about myself. For the last 7 years I chose to specialise in legacy web apps (which baffled so many people), and rather than pitching rewrites that typically fail, I opted to focus on improving these systems so they could be changed to meet new needs. In short, I learned to refactor. 
